@@ -1,19 +1,15 @@
 import React, {useState} from "react";
 
+import Navbar from "./components/Navbar";
+import GlobaStyle from "./components/Globalstyle";
 
 const App = () => {
 
-  const [counter, setCounter] = useState(0);
-
-  const handlerCOunter = () => {
-    setCounter(counter++);
-  }
-
   return (
-    <div>
-      <p>{counter}</p>
-      <button onClick={() => setCounter(counter++)}>Click me!</button>
-    </div>
+    <>
+      <GlobaStyle />
+      <Navbar />
+    </>
   );
 }
 
