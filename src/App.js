@@ -1,14 +1,14 @@
 import React, {useState} from "react";
 
-import Navbar from "./components/Navbar";
 import GlobaStyle from "./components/Globalstyle";
+import Header from "./components/Header";
 
 const App = () => {
 
   return (
     <>
       <GlobaStyle />
-      <Navbar />
+      <Header />
     </>
   );
 }
