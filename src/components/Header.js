@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <React.Fragment>
-      <AppBar sx={{ background: "#063970" }}>
+      <AppBar sx={{ background: "#000000" }}>
         <Toolbar>
           <AddBusinessRoundedIcon sx={{ transform: "scale(2)" }} />
           {isMatch ? (
