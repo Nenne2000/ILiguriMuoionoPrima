@@ -5,9 +5,9 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import MenuIcon from '@mui/icons-material/Menu';
 import ShareIcon from '@mui/icons-material/Share';
 import DrawerComp from "./Drawer";
+
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   alignItems: 'flex-start',
@@ -35,8 +35,8 @@ export default function ProminentAppBar() {
           </IconButton>
 
           <Typography
-            variant="h5"
-            noWrap
+            align="left"
+            variant="h4"
             component="div"
             sx={{ flexGrow: 1, alignSelf: 'flex-end' }}
           >

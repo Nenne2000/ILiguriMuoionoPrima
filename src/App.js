@@ -1,8 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 
 import GlobaStyle from "./components/Globalstyle";
-import Header from "./components/Header";
 import Navbar from "./components/Navbar"
+import Card from "./components/Card";
 
 const App = () => {
 
