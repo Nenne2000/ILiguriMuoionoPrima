@@ -3,27 +3,19 @@ import { styled } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
 import ShareIcon from '@mui/icons-material/Share';
 import DrawerComp from "./Drawer";
 
 
-const StyledToolbar = styled(Toolbar)(({ theme }) => ({
-  alignItems: 'flex-start',
-  paddingTop: theme.spacing(1),
-  paddingBottom: theme.spacing(2),
-  // Override media queries injected by theme.mixins.toolbar
-  '@media all': {
-    minHeight: 128,
-  },
-}));
-
-export default function ProminentAppBar() {
+export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{ background: "#000000" }}>
-        <StyledToolbar>
+      <AppBar position="static"  sx={{ background: "#212121" }}>
+        <Toolbar>
           <IconButton
             size="large"
             edge="start"
@@ -31,23 +23,14 @@ export default function ProminentAppBar() {
             aria-label="open drawer"
             sx={{ mr: 2 }}
           >
-          <DrawerComp />
+          <DrawerComp/>
           </IconButton>
-
-          <Typography
-            align="left"
-            variant="h4"
-            component="div"
-            sx={{ flexGrow: 1, alignSelf: 'flex-end' }}
-          >
-            I LIGURI
-            MUOIONO
-            PRIMA.
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           </Typography>
           <IconButton size="large" aria-label="search" color="inherit">
             <ShareIcon />
           </IconButton>
-        </StyledToolbar>
+        </Toolbar>
       </AppBar>
     </Box>
   );
