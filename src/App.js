@@ -17,7 +17,7 @@ const App = () => {
     <>
       <GlobaStyle />
       <Navbar/>
-      <div className="App" style={{ marginLeft: "32px"}}> 
+      <div className="App" style={{ marginLeft: "32px", padding:"20px"}}> 
       <Typography variant="h3" color="common.white"> 
         I LIGURI 
       </Typography> 
@@ -35,8 +35,19 @@ const App = () => {
     </Typography>   
     </div>
 
-    <div>
-    <CountdownTimer targetDate={dateTimeAfterThreeDays} />
+    <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div style={{ padding:"20px"}} >
+      <Card/>
+      </div>
+      <div style={{ padding:"20px" }} >
+      <Card/>
+      </div>
+      <div style={{ padding:"20px" }} >
+      <Card/>
+      </div>
+      <div style={{ padding:"20px" }} >
+      <Card/>
+      </div>
     </div>
 
     </>
