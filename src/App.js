@@ -35,6 +35,10 @@ const App = () => {
     </Typography>   
     </div>
 
+    <div>
+      <CountdownTimer/>
+    </div>
+
     <div style={{ display: "flex", justifyContent: "space-between" }}>
       <div style={{ padding:"20px"}} >
       <Card/>
