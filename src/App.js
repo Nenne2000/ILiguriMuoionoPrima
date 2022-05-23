@@ -6,6 +6,8 @@ import Typography from '@mui/material/Typography';
 import { padding } from "@mui/system";
 import CountdownTimer from './components/CountdownTimer'
 
+import "./countdown.css"
+
 const App = () => {
 
   const THREE_DAYS_IN_MS = 3*24*60*1000;
@@ -36,7 +38,7 @@ const App = () => {
     </div>
 
     <div>
-      <CountdownTimer/>
+      <CountdownTimer targetDate={dateTimeAfterThreeDays} />
     </div>
 
     <div style={{ display: "flex", justifyContent: "space-between" }}>
