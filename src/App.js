@@ -15,6 +15,13 @@ const App = () => {
   const THREE_DAYS_IN_MS = 3*24*60*1000;
   const NOW_IN_MS = new Date().getTime();
 
+  const MORTE = ["I LIGURI", "MUOIONO", "PRIMA."];
+  const FOCACCIA = ["ADDIO", "FOCACCIA"];
+  const PESTO = ["ADDIO", "PESTO"];
+  const ESTINZIONE = ["LIGURI", "IN VIA DI", "ESTINZIONE"]
+  const MINACCE = [MORTE, FOCACCIA, PESTO, ESTINZIONE];
+  var x = Math.floor(Math.random() * 4);
+
   const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
 
   return (
@@ -23,8 +30,8 @@ const App = () => {
       <Navbar/>
       
         <div className="App" style={{ marginLeft: "32px", padding:"20px"}}> 
-          <Typography variant="h3" color="common.white"> 
-            I LIGURI <br /> MUOIONO <br /> PRIMA. 
+          <Typography variant="h3" color="common.white" display="block"> 
+            {MINACCE[x][0]} <br /> {MINACCE[x][1]} <br /> {MINACCE[x][2]} 
           </Typography>
         </div>
     <div className="App" style={{ backgroundColor: "#484848" , textAlign:"justify", padding:"20px"}}> 
