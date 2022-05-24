@@ -29,18 +29,11 @@ const App = () => {
       <GlobaStyle />
       <Navbar/>
       
-        <div className="App" style={{ marginLeft: "32px", padding:"20px"}}> 
+        <div className="App" style={{ padding:"35px", background:"#212121"}}> 
           <Typography variant="h3" color="common.white" display="block"> 
             {MINACCE[x][0]} <br /> {MINACCE[x][1]} <br /> {MINACCE[x][2]} 
           </Typography>
         </div>
-    <div className="App" style={{ backgroundColor: "#484848" , textAlign:"justify", padding:"20px"}}> 
-    <Typography color="common.white"> 
-    Perchè?
-    Il comprensorio del parco del Beigua, la più vasta area naturale protetta della Liguria, è la sede di un vasto giacimento di titanio.
-    Per l’estrazione di quest’ultimo occorre distruggere completamente il monte Tarinè, questo procedimento porterebbe alla formazione di grandi quantità di polveri sottili che renderebbero la vita impossibile in tutta la Liguria e nel basso Piemonte.
-    </Typography>   
-    </div>
 
       <Grid
       container
