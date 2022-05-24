@@ -4,6 +4,8 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import { CardActions } from '@mui/material';
+import { Button } from '@mui/material';
 
 export default function ActionAreaCard() {
   return (
@@ -24,6 +26,11 @@ export default function ActionAreaCard() {
           </Typography>
         </CardContent>
       </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          Share
+        </Button>
+      </CardActions>
     </Card>
   );
 }
