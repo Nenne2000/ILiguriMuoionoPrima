@@ -5,8 +5,10 @@ import Card from "./components/Card";
 import Typography from '@mui/material/Typography';
 import { padding } from "@mui/system";
 import CountdownTimer from './components/CountdownTimer'
-
 import "./countdown.css"
+
+
+import Grid from '@mui/material/Grid';
 
 const App = () => {
 
@@ -41,20 +43,25 @@ const App = () => {
       <CountdownTimer targetDate={dateTimeAfterThreeDays} />
     </div>
 
-    <div style={{ display: "flex", justifyContent: "space-between" }}>
-      <div style={{ padding:"20px"}} >
-      <Card/>
-      </div>
-      <div style={{ padding:"20px" }} >
-      <Card/>
-      </div>
-      <div style={{ padding:"20px" }} >
-      <Card/>
-      </div>
-      <div style={{ padding:"20px" }} >
-      <Card/>
-      </div>
-    </div>
+    <Grid
+      container
+      spacing={4}
+      justify="center"
+      style={{ padding:"30px" }}
+    >
+      <Grid item xs={12} sm={6} md={3}>
+        <Card />
+      </Grid>
+      <Grid item xs={12} sm={6} md={3}>
+        <Card />
+      </Grid>
+      <Grid item xs={12} sm={6} md={3}>
+        <Card />
+      </Grid>
+      <Grid item xs={12} sm={6} md={3}>
+        <Card />
+      </Grid>
+    </Grid>
 
     </>
   );
