@@ -22,22 +22,36 @@ const App = () => {
       <GlobaStyle />
       <Navbar/>
       
-        <div className="App" style={{ marginLeft: "32px", padding:"20px"}}> 
-          <Typography variant="h3" color="common.white"> 
-            I LIGURI <br /> MUOIONO <br /> PRIMA. 
-          </Typography>
-        </div>
-    <div className="App" style={{ backgroundColor: "#484848" , textAlign:"justify", padding:"20px"}}> 
-    <Typography color="common.white"> 
-    Perchè?
-    Il comprensorio del parco del Beigua, la più vasta area naturale protetta della Liguria, è la sede di un vasto giacimento di titanio.
-    Per l’estrazione di quest’ultimo occorre distruggere completamente il monte Tarinè, questo procedimento porterebbe alla formazione di grandi quantità di polveri sottili che renderebbero la vita impossibile in tutta la Liguria e nel basso Piemonte.
-    </Typography>   
-    </div>
+      <div className="App" style={{ background: "#212121",  padding:"20px"}}> 
+       <Typography variant="h3" color="common.white"> 
+        I LIGURI <br /> MUOIONO <br /> PRIMA. 
+       </Typography>
+      </div>
 
-    <div>
-      <CountdownTimer targetDate={dateTimeAfterThreeDays} />
-    </div>
+      <Grid
+      container
+      spacing={4}
+      justify="center"
+      style={{ padding:"30px" }}
+      >
+
+        <Grid item xs={12}  md={6}>
+          <div className="App" style={{ backgroundColor: "#484848" , textAlign:"justify", padding:"20px"}}> 
+          <Typography color="common.white"> 
+          Perchè? <br />
+          Il comprensorio del parco del Beigua, la più vasta area naturale protetta della Liguria, è la sede di un vasto giacimento di titanio.
+          Per l’estrazione di quest’ultimo occorre distruggere completamente il monte Tarinè, questo procedimento porterebbe alla formazione di grandi quantità di polveri sottili che renderebbero la vita impossibile in tutta la Liguria e nel basso Piemonte.
+          </Typography>   
+          </div>
+        </Grid>
+
+        <Grid item xs={12}  md={6}>
+          <div>
+            <CountdownTimer targetDate={dateTimeAfterThreeDays} />
+          </div>
+        </Grid>
+
+    </Grid>
 
     <Grid
       container
