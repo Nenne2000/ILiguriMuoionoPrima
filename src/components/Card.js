@@ -17,11 +17,10 @@ export default function ActionAreaCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+            INFORMAZIONI
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          informazioni veloci riguardanti l’argomento della card in modo da spiegare velocemente di cosa si tratterà
           </Typography>
         </CardContent>
       </CardActionArea>

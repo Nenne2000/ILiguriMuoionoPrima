@@ -21,21 +21,17 @@ const App = () => {
     <>
       <GlobaStyle />
       <Navbar/>
-      <div className="App" style={{ marginLeft: "32px", padding:"20px"}}> 
-      <Typography variant="h3" color="common.white"> 
-        I LIGURI 
-      </Typography> 
-      <Typography variant="h3" color="common.white"> 
-       MUOIONO 
-      </Typography>   
-      <Typography variant="h3" color="common.white"> 
-       PRIMA. 
-      </Typography>
-    </div>
+      
+        <div className="App" style={{ marginLeft: "32px", padding:"20px"}}> 
+          <Typography variant="h3" color="common.white"> 
+            I LIGURI <br /> MUOIONO <br /> PRIMA. 
+          </Typography>
+        </div>
     <div className="App" style={{ backgroundColor: "#484848" , textAlign:"justify", padding:"20px"}}> 
     <Typography color="common.white"> 
-    What is Lorem Ipsum?
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum 
+    Perchè?
+    Il comprensorio del parco del Beigua, la più vasta area naturale protetta della Liguria, è la sede di un vasto giacimento di titanio.
+    Per l’estrazione di quest’ultimo occorre distruggere completamente il monte Tarinè, questo procedimento porterebbe alla formazione di grandi quantità di polveri sottili che renderebbero la vita impossibile in tutta la Liguria e nel basso Piemonte.
     </Typography>   
     </div>
 
