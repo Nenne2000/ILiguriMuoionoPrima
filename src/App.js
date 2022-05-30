@@ -2,6 +2,7 @@ import React from "react";
 import GlobaStyle from "./components/Globalstyle";
 import Navbar from "./components/Navbar"
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 import Typography from '@mui/material/Typography';
 import { padding } from "@mui/system";
 import CountdownTimer from './components/CountdownTimer'
@@ -80,6 +81,7 @@ const App = () => {
       </Grid>
     </Grid>
 
+    <Footer />
     </>
   );
 }
