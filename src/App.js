@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import { padding } from "@mui/system";
 import CountdownTimer from './components/CountdownTimer'
 import "./countdown.css"
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 
 import Grid from '@mui/material/Grid';
@@ -81,7 +81,7 @@ const App = () => {
       </Grid>
     </Grid>
 
-    <Footer/>
+    <footer />
 
     </>
   );
