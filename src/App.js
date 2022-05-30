@@ -5,7 +5,7 @@ import Card from "./components/Card";
 import Typography from '@mui/material/Typography';
 import { padding } from "@mui/system";
 import CountdownTimer from './components/CountdownTimer'
-import "./countdown.css"
+
 
 
 import Grid from '@mui/material/Grid';
@@ -14,6 +14,7 @@ const App = () => {
 
   const THREE_DAYS_IN_MS = 3*24*60*1000;
   const NOW_IN_MS = new Date().getTime();
+  const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
 
   const MORTE = ["I LIGURI", "MUOIONO", "PRIMA."];
   const FOCACCIA = ["ADDIO", "FOCACCIA"];
@@ -21,8 +22,6 @@ const App = () => {
   const ESTINZIONE = ["LIGURI", "IN VIA DI", "ESTINZIONE"]
   const MINACCE = [MORTE, FOCACCIA, PESTO, ESTINZIONE];
   var x = Math.floor(Math.random() * 4);
-
-  const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
 
   return (
     <>
@@ -53,6 +52,9 @@ const App = () => {
         </Grid>
 
         <Grid item xs={12}  md={6}>
+         <Typography variant= 'h4' color="common.white"> 
+          Capirai tutto tra:
+         </Typography>
           <div>
             <CountdownTimer targetDate={dateTimeAfterThreeDays} />
           </div>
