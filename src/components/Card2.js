@@ -9,28 +9,30 @@ import { Button } from '@mui/material';
 
 export default function ActionAreaCard() {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345}}>
+      <div style={{ color:'white', backgroundColor: "#484848"}}>
       <CardActionArea>
         <CardMedia
           component="img"
           height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+          image={require('../images/Card2.png')}
+          alt="un prato"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Boia di dio
+          <Typography gutterBottom variant="h6" component="div">
+            IL BEIGUA
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-          informazioni veloci riguardanti l’argomento della card in modo da spiegare velocemente di cosa si tratterà
+          <Typography variant="body2" color="white">
+          Il comprensorio del Parco Naturale Regionale del Beigua, la più vasta area naturale protetta della Liguria
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
+        <Button variant= 'contained' size="small" sx={{background: "#212121"}}>
+          Scopri di più
         </Button>
       </CardActions>
+      </div>
     </Card>
   );
 }
