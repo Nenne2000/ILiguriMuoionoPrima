@@ -8,6 +8,7 @@ import Card4 from "./components/Card4";
 import Typography from '@mui/material/Typography';
 import { padding } from "@mui/system";
 import CountdownTimer from './components/CountdownTimer'
+import Footer from "./components/Footer"
 import "./countdown.css"
 
 
@@ -82,6 +83,8 @@ const App = () => {
         <Card4 />
       </Grid>
     </Grid>
+
+    <Footer />
 
     </>
   );
