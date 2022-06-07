@@ -65,7 +65,7 @@ const Home = () => {
         <Grid item xs={12}  md={6}>
           <div className="App" style={{ backgroundColor: "#484848" , textAlign:"justify", padding:"20px"}}> 
           <Typography color="common.white"> 
-          Perchè? <br />
+          <bold>Perchè?</bold> <br />
           Il comprensorio del parco del Beigua, la più vasta area naturale protetta della Liguria, è la sede di un vasto giacimento di titanio.
           Per l’estrazione di quest’ultimo occorre distruggere completamente il monte Tarinè, questo procedimento porterebbe alla formazione di grandi quantità di polveri sottili che renderebbero la vita impossibile in tutta la Liguria e nel basso Piemonte.
           </Typography>   
