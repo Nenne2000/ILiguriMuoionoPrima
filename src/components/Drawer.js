@@ -10,7 +10,9 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Box, textAlign } from "@mui/system";
-const pages = ["Info", "Documenti", "Il Beigua", "Ora tocca a te"];
+import { Link } from 'react-router-dom';
+
+//const pages = ["Info", "Documenti", "Il Beigua", "Ora tocca a te"];
 const DrawerComp = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
 
@@ -27,13 +29,34 @@ const DrawerComp = () => {
           </Typography>
         </Box>
         <List>
-          {pages.map((page, index) => (
-            <ListItemButton key={index}>
-              <ListItemIcon>
-                <ListItemText>{page}</ListItemText>
-              </ListItemIcon>
-            </ListItemButton>
-          ))}
+            <Link to="/">
+              <ListItemButton>
+                <ListItemIcon>
+                  <ListItemText>Info</ListItemText>
+                </ListItemIcon>
+              </ListItemButton>
+            </Link>
+            <Link to="/About">
+              <ListItemButton>
+                <ListItemIcon>
+                  <ListItemText>Il Beigua</ListItemText>
+                </ListItemIcon>
+              </ListItemButton>
+            </Link>
+            <Link to="/">
+              <ListItemButton>
+                <ListItemIcon>
+                  <ListItemText>Ora tocca a te</ListItemText>
+                </ListItemIcon>
+              </ListItemButton>
+            </Link>
+            <Link to="/">
+              <ListItemButton>
+                <ListItemIcon>
+                  <ListItemText>Documenti</ListItemText>
+                </ListItemIcon>
+              </ListItemButton>
+            </Link>
         </List>
       </Drawer>
       <IconButton

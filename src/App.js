@@ -1,19 +1,42 @@
 import React from "react";
-import GlobaStyle from "./components/Globalstyle";
+import GlobalStyle from "./components/Globalstyle";
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer";
+import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
+
+import Grid from '@mui/material/Grid';
 import Card from "./components/Card";
 import Card2 from "./components/Card2";
 import Card3 from "./components/Card3";
 import Card4 from "./components/Card4";
+import Timer from './components/Timer';
 import Typography from '@mui/material/Typography';
-import { padding } from "@mui/system";
-import Timer from './components/Timer'
-import Footer from "./components/Footer"
+
+import About from './pages/About';
+
+function App() {
+  return (
+
+    <Router>
+      <div>
+        <GlobalStyle />
+        <Navbar />
+
+        <Routes>
+          <Route path="/" exact element={ <Home /> } />
+          <Route path='/About' element={ <About /> } />
+        </Routes>
+
+        <Footer />
+      </div>
+    </Router>
 
 
-import Grid from '@mui/material/Grid';
+  );
+}
 
-const App = () => {
+
+const Home = () => {
 
   const MORTE = ["I LIGURI", "MUOIONO", "PRIMA."];
   const FOCACCIA = ["ADDIO", "FOCACCIA"];
@@ -22,12 +45,10 @@ const App = () => {
   const MINACCE = [MORTE, FOCACCIA, PESTO, ESTINZIONE];
   var x = Math.floor(Math.random() * 4);
 
-
   return (
     <>
-      <GlobaStyle />
-      <Navbar/>
-      
+      <GlobalStyle />
+
         <div className="App" style={{ padding:"35px", background:"#212121"}}> 
           <Typography variant="h3" color="common.white" display="block"> 
             {MINACCE[x][0]} <br /> {MINACCE[x][1]} <br /> {MINACCE[x][2]} 
@@ -83,10 +104,10 @@ const App = () => {
       </Grid>
     </Grid>
 
-    <Footer />
-
     </>
   );
-}
+};
+
+
 
 export default App;

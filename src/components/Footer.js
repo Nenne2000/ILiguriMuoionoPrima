@@ -13,7 +13,7 @@ export default function ButtonAppBar() {
         <Typography component="div" sx={{ flexGrow: 1 }}>
             progetto realizzato per il corso di web design dell'anno accademico 2021/2022
         </Typography>
-        <img class="photo" src={logo} alt="logo" />
+        <img className="photo" src={logo} alt="logo" />
         </Toolbar>
       </AppBar>
     </Box>
