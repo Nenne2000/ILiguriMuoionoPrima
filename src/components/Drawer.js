@@ -36,7 +36,7 @@ const DrawerComp = () => {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/About">
+            <Link to="/IlBeigua">
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>Il Beigua</ListItemText>

@@ -12,7 +12,7 @@ import Card4 from "./components/Card4";
 import Timer from './components/Timer';
 import Typography from '@mui/material/Typography';
 
-import About from './pages/About';
+import IlBeigua from './pages/IlBeigua';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
 
         <Routes>
           <Route path="/" exact element={ <Home /> } />
-          <Route path='/About' element={ <About /> } />
+          <Route path='/IlBeigua' element={ <IlBeigua /> } />
         </Routes>
 
         <Footer />
