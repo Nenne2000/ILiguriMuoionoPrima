@@ -17,7 +17,7 @@ export default function ActionAreaCard() {
   return (
     <Card sx={{ maxWidth: 345}}>
       <div style={{ color:'white', backgroundColor: "#484848"}}>
-      <CardActionArea>
+      <CardActionArea href='/OraToccaATe'>
         <CardMedia
           component="img"
           height="140"
@@ -35,7 +35,7 @@ export default function ActionAreaCard() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button variant= 'contained' size="small"  onMouseEnter={event => onMouseOver(event)} sx={{background: "#212121"}}>
+        <Button href='/OraToccaATe' variant='contained' size="small"  onMouseEnter={event => onMouseOver(event)} sx={{background: "#212121"}}>
           Scopri di più
         </Button>
       </CardActions>
