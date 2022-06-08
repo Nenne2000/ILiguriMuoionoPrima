@@ -3,6 +3,7 @@ import GlobalStyle from "../components/Globalstyle";
 import background from "../images/pag1_ruspa.png";
 import Grid from '@mui/material/Grid';
 import MenuIcon from "@mui/icons-material/Menu";
+import Timer from '../components/Timer';
 import { Box, textAlign } from "@mui/system";
 import {
     Drawer,
@@ -32,50 +33,55 @@ function IlBeigua() {
       justify="center"
       style={{ padding:"30px" }}
       >
-    <Grid item xs={12}  md={6}></Grid>
-    <div style={{ backgroundColor: "white" , textAlign:"justify", padding:"20px"}}>
 
-        <List>
-            <Link to="/Informazioni">
+        <Grid item xs={12}  md={3}>
+          <div className="App" style={{ backgroundColor: "white" , textAlign:"justify", paddingRight:"20px"}}> 
+          <List>
+            <Link to="/Informazioni" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText>Info</ListItemText>
+                  <ListItemText style={{color: '#484848'}}>Info</ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/IlBeigua">
+            <Link to="/IlBeigua" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText>Il Beigua</ListItemText>
+                  <ListItemText style={{color: '#484848'}}>Il Beigua</ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/">
+            <Link to="/OraToccaATe" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText>Ora tocca a te</ListItemText>
+                  <ListItemText style={{color: '#484848'}}>Ora tocca a te</ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/">
+            <Link to="/" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText>Documenti</ListItemText>
+                  <ListItemText style={{color: '#484848'}}>Documenti</ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
         </List>
+          </div>
+        </Grid>
 
-    </div>
-    </Grid>
-    <Grid item xs={12}  md={6}>
-    <div style={{ backgroundColor: "#484848" , textAlign:"justify", padding:"20px"}}>
-        <Typography color="common.white">
+        <Grid item xs={12}  md={9} color="white">
+          <div>
+          <Typography color="common.white">
         Varazze. E’ prevista per domani, 13 aprile, l’udienza di merito presso il Tar Liguria sulla legittimità del decreto del dirigente regionale alle attività estrattive della Regione Liguria, emesso nel febbraio 2021, relativo al permesso di ricerca mineraria in aree esterne (Monte Antenna) del comprensorio del Parco Beigua, nei comuni di Urbe e Sassello. Lo ricordano le sezioni liguri di Lac, Lipu e Wwf, che da sempre si battono per evitare l’avvio dell’attività di estrazione del minerale.
         </Typography>
-
-    </div>
+          </div>
+        </Grid>
     </Grid>
+
+
+
+
+ 
     </>
     );
 }
