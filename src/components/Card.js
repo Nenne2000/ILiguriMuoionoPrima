@@ -7,6 +7,12 @@ import { CardActionArea } from '@mui/material';
 import { CardActions } from '@mui/material';
 import { Button } from '@mui/material';
 
+const onMouseOver = event => {
+  const el = event.target;
+  let black = "#212121";
+  el.style.backgroundColor = black;
+};
+
 export default function ActionAreaCard() {
   return (
     <Card sx={{ maxWidth: 345}}>
@@ -28,7 +34,8 @@ export default function ActionAreaCard() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button variant= 'contained' size="small" sx={{background: "#212121"}}>
+        <Button variant= 'contained' size="small" 
+        onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
           Scopri di più
         </Button>
       </CardActions>
