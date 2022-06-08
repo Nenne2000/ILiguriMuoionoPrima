@@ -29,28 +29,28 @@ const DrawerComp = () => {
           </Typography>
         </Box>
         <List>
-            <Link to="/Informazioni">
+            <Link to="/Informazioni" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>Info</ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/IlBeigua">
+            <Link to="/IlBeigua" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>Il Beigua</ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/OraToccaATe">
+            <Link to="/OraToccaATe" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>Ora tocca a te</ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/">
+            <Link to="/" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>Documenti</ListItemText>
