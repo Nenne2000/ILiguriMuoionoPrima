@@ -51,10 +51,10 @@ const Home = () => {
     <>
       <GlobalStyle />
 
-        <div className="App" style={{ padding:"35px", background:"#212121"}}> 
-          <Typography variant="h3" color="common.white" display="block"> 
+        <div style={{ padding:"35px", background:"#212121"}}> 
+          <div class="style" variant="Poppins" display="block"> 
             {MINACCE[x][0]} <br /> {MINACCE[x][1]} <br /> {MINACCE[x][2]} 
-          </Typography>
+          </div>
         </div>
 
       <Grid

@@ -17,7 +17,7 @@ export default function ActionAreaCard() {
   return (
     <Card sx={{ maxWidth: 345}}>
       <div style={{ color:'white', backgroundColor: "#484848"}}>
-      <CardActionArea>
+      <CardActionArea href='/Informazioni'>
         <CardMedia
           component="img"
           height="140"
