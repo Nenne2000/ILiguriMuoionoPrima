@@ -43,7 +43,7 @@ const DrawerComp = () => {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/">
+            <Link to="/OraToccaATe">
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>Ora tocca a te</ListItemText>

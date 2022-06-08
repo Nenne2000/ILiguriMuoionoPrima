@@ -14,6 +14,7 @@ import Typography from '@mui/material/Typography';
 
 import IlBeigua from './pages/IlBeigua';
 import Informazioni from './pages/Informazioni';
+import OraToccaATe from './pages/OraToccaATe';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/" exact element={ <Home /> } />
           <Route path='/IlBeigua' element={ <IlBeigua /> } />
           <Route path='/Informazioni' element={ <Informazioni /> } />
+          <Route path='/OraToccaATe' element={ <OraToccaATe /> } />
         </Routes>
 
         <Footer />
