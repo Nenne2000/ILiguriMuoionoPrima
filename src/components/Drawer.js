@@ -29,7 +29,7 @@ const DrawerComp = () => {
           </Typography>
         </Box>
         <List>
-            <Link to="/">
+            <Link to="/Informazioni">
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>Info</ListItemText>

@@ -13,6 +13,7 @@ import Timer from './components/Timer';
 import Typography from '@mui/material/Typography';
 
 import IlBeigua from './pages/IlBeigua';
+import Informazioni from './pages/Informazioni';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={ <Home /> } />
           <Route path='/IlBeigua' element={ <IlBeigua /> } />
+          <Route path='/Informazioni' element={ <Informazioni /> } />
         </Routes>
 
         <Footer />
