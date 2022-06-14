@@ -7,20 +7,6 @@ html{
   font-size:100%;
 }
 
-div.drawer{
-  font-size: 34px;
-  color: white;
-  font-weight: 900;
-  line-height: 1.2;
-  text-align: left;
-}
-
-div.list{
-  color: #484848;
-  font-size: 20px;
-  font-weight: 700;
-}
-
 div.s900{
   color: white;
   font-size: 90px;
@@ -51,14 +37,14 @@ div.s400{
 
 @media(max-width: 414px) { 
   div.s900 {font-size: 30px;} 
-  div.s700 {font-size: 15px;} 
-  div.s400 {font-size: 10px;}
+  /*div.s700 {font-size: 15px;} 
+  div.s400 {font-size: 10px;}*/
   } 
 
   
   @media(max-width: 700px) and (min-width:415px){ 
   div.s900 {font-size:50px;}
-  div.s700 {font-size: 25px;} 
-  div.s400 {font-size: 20px;}
+  /*div.s700 {font-size: 25px;} 
+  div.s400 {font-size: 20px;}*/
   } 
    
