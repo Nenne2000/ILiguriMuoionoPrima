@@ -2,7 +2,9 @@ import React from "react";
 import GlobalStyle from "../components/Globalstyle";
 import background from "../images/fogli_brutti.png";
 import Grid from '@mui/material/Grid';
+import img from "../images/pag4.png";
 import {
+    Button,
     List,
     ListItemButton,
     ListItemIcon,
@@ -10,6 +12,13 @@ import {
     Typography,
   } from "@mui/material";
 import { Link } from 'react-router-dom';
+import { Box } from "@mui/system";
+
+const onMouseOver = event => {
+    const el = event.target;
+    let black = "#212121";
+    el.style.backgroundColor = black;
+  };
 
 function Documenti() {
 
@@ -63,12 +72,29 @@ function Documenti() {
           </div>
         </Grid>
 
-        <Grid item xs={12}  md={9} color="white">
-          <div>
+        <Grid item xs={12}  md={9} color="white" paddingRight={10}>
+        <div className="testoh">
+          <br/><br/>
+          <h1>RASSEGNE STAMPA</h1>
           <Typography color="common.white">
-        Varazze. E’ prevista per domani, 13 aprile, l’udienza di merito presso il Tar Liguria sulla legittimità del decreto del dirigente regionale alle attività estrattive della Regione Liguria, emesso nel febbraio 2021, relativo al permesso di ricerca mineraria in aree esterne (Monte Antenna) del comprensorio del Parco Beigua, nei comuni di Urbe e Sassello. Lo ricordano le sezioni liguri di Lac, Lipu e Wwf, che da sempre si battono per evitare l’avvio dell’attività di estrazione del minerale.
-        </Typography>
+          3 Marzo 2021, Richiesta          
+          </Typography>
+          <br/>
           </div>
+
+          <div>
+          <img src={img} alt="" width="358" height="752"/>
+          </div>
+
+          <Box m={1}
+              display="flex"
+              justifyContent="flex-end"
+              alignItems="flex-end">
+          <Button href='' variant= 'contained' size="small" 
+        onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
+          VAI AL DOCUMENTO INTEGRALE
+        </Button>
+        </Box>
         </Grid>
     </Grid>
  
