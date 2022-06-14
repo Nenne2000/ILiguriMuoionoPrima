@@ -1,6 +1,7 @@
 import React from "react";
 import GlobalStyle from "../components/Globalstyle";
 import background from "../images/immagginebbbrutta.png";
+import img1 from "../images/pag2_img1.png";
 import Grid from '@mui/material/Grid';
 import {
     List,
@@ -26,7 +27,6 @@ function IlBeigua() {
       container
       spacing={4}
       justify="center"
-      style={{ padding:"30px" }}
       >
 
         <Grid item xs={12}  md={3} backgroundColor="white"> 
@@ -69,7 +69,7 @@ function IlBeigua() {
         </Typography>
           </div>
           <div>
-          <img src="../images/pag2_img1.png" alt="" />
+          <img src={img1} alt="" width="1077" height="345"/>
           </div>
         </Grid>
     </Grid>

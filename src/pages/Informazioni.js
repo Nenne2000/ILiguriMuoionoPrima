@@ -87,7 +87,7 @@ function Informazioni() {
           </div>
 
           <div>
-            <img src={img2} width="1077" height="345"/>
+            <img src={img2} width="1077" height="317"/>
           </div>
 
           <div>
