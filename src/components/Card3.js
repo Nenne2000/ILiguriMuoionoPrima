@@ -25,13 +25,13 @@ export default function ActionAreaCard() {
           alt="stickers"
         />
         <CardContent>
-          <Typography gutterBottom variant="h6" component="div">
+          <div className='s700' gutterBottom variant="Poppins" component="div">
             ORA TOCCA A TE
-          </Typography>
-          <Typography variant="body2" color="white">
+          </div>
+          <div className='s400' variant="Poppins" color="white">
           Aiutaci a spargere la voce!
           Fai sì che altre persone come te possano venire a conoscenza di questa situazione.
-          </Typography>
+          </div>
         </CardContent>
       </CardActionArea>
       <CardActions>

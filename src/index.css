@@ -7,6 +7,20 @@ html{
   font-size:100%;
 }
 
+div.drawer{
+  font-size: 34px;
+  color: white;
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: left;
+}
+
+div.list{
+  color: #484848;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 div.s900{
   color: white;
   font-size: 90px;

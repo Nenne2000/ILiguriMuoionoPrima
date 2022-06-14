@@ -25,12 +25,12 @@ export default function ActionAreaCard() {
           alt="una ruspa"
         />
         <CardContent>
-          <Typography gutterBottom variant="h6" component="div">
+          <div gutterBottom className='s700' variant="Poppins" component="div">
             INFORMAZIONI
-          </Typography>
-          <Typography variant="body2" color="white">
+          </div>
+          <div className='s400' variant="Poppins" color="white">
           informazioni veloci riguardanti l’argomento della card in modo da spiegare velocemente di cosa si tratterà
-          </Typography>
+          </div>
         </CardContent>
       </CardActionArea>
       <CardActions>

@@ -25,16 +25,20 @@ export default function ActionAreaCard() {
           alt="pila di documenti"
         />
         <CardContent>
-          <Typography gutterBottom variant="h6" component="div">
+          <div className='s700' gutterBottom variant="Poppins" component="div">
             DOCUMENTI
-          </Typography>
-          <Typography variant="body2" color="white">
-          Rassegne stampa e documentazione ufficiale legata ai consensi e alle richieste di analisi dell’area di interesse.
-          </Typography>
+          </div>
+          <div className='s400' variant="Poppins" color="white">
+          Rassegne stampa e documentazione ufficiale legata ai consensi e alle richieste di analisi dell’area di interesse.<br/>
+          </div>
         </CardContent>
       </CardActionArea>
       <CardActions>
+<<<<<<< HEAD
         <Button href='/Documenti' variant= 'contained' size="small" onMouseEnter={event => onMouseOver(event)} sx={{background: "#212121"}}>
+=======
+        <Button href='/OraToccaATe' variant='contained' size="small" onMouseEnter={event => onMouseOver(event)} sx={{background: "#212121"}}>
+>>>>>>> cbb405523ae90fd9e609eb28e4a4d46665687b90
           Scopri di più
         </Button>
       </CardActions>
