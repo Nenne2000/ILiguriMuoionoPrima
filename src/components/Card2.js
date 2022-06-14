@@ -24,12 +24,12 @@ export default function ActionAreaCard() {
           image={require('../images/Card2.png')}
           alt="un prato"
         />
-        <CardContent>
+        <CardContent sx={{ height : "180px"}}>
           <div className='s700' gutterBottom variant="Poppins" component="div">
             IL BEIGUA
           </div>
           <div className='s400' variant="Poppins" color="white">
-          Il comprensorio del Parco Naturale Regionale del Beigua, la più vasta area naturale protetta della Liguria<br/><br/>
+          Il comprensorio del Parco Naturale Regionale del Beigua, la più vasta area naturale protetta della Liguria
           </div>
         </CardContent>
       </CardActionArea>

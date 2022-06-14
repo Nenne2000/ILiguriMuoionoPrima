@@ -83,7 +83,7 @@ const Home = () => {
           <div className="s700">
             Capirai tutto tra:
           </div>
-          <div className="s900">
+          <div className="s900" style={{ textAlign: "center"}}>
             <Timer />
           </div>
         </Grid>
