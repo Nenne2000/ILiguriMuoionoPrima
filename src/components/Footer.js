@@ -10,8 +10,8 @@ export default function ButtonAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{ background: "#212121" }}>
         <Toolbar>
-        <Typography component="div" sx={{ flexGrow: 1 }}>
-          <div className='s400'>
+        <Typography component="div" variant='Poppins' sx={{flexGrow: 1 }}>
+          <div className='footer'>
             Progetto realizzato per il corso di web design dell'anno accademico 2021/2022.
             </div>
         </Typography>
