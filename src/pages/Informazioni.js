@@ -2,19 +2,14 @@ import React from "react";
 import GlobalStyle from "../components/Globalstyle";
 import background from "../images/pag1_ruspa.png";
 import Grid from '@mui/material/Grid';
-import MenuIcon from "@mui/icons-material/Menu";
-import Timer from '../components/Timer';
-import { Box, textAlign } from "@mui/system";
 import {
-    Drawer,
-    IconButton,
     List,
     ListItemButton,
     ListItemIcon,
     ListItemText,
     Typography,
   } from "@mui/material";
-  import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function IlBeigua() {
 
@@ -34,7 +29,7 @@ function IlBeigua() {
       style={{ padding:"30px" }}
       >
 
-        <Grid item xs={12}  md={3}>
+        <Grid item xs={12}  md={3} backgroundColor="white">
           <div className="App" style={{ backgroundColor: "white" , textAlign:"justify", paddingRight:"20px"}}> 
           <List>
             <Link to="/Informazioni" style={{ textDecoration: 'none' }}>
@@ -77,10 +72,6 @@ function IlBeigua() {
           </div>
         </Grid>
     </Grid>
-
-
-
-
  
     </>
     );

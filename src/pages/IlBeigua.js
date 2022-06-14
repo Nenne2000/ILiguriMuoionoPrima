@@ -1,7 +1,15 @@
 import React from "react";
 import GlobalStyle from "../components/Globalstyle";
-import background from "../images/immagginebbbrutta.png"
-import { Typography } from "@mui/material";
+import background from "../images/immagginebbbrutta.png";
+import Grid from '@mui/material/Grid';
+import {
+    List,
+    ListItemButton,
+    ListItemIcon,
+    ListItemText,
+    Typography,
+  } from "@mui/material";
+import { Link } from 'react-router-dom';
 
 function IlBeigua() {
 
@@ -13,6 +21,58 @@ function IlBeigua() {
         <Typography paddingLeft={10} style={{fontSize: "80px", color:"white", textAlign:"left", position:"absolute", 
                     top:"10", bottom:"0", left:"0", right:"0", height:"fit-content", margin:"auto"}}>IL BEIGUA</Typography>
     </article>
+
+    <Grid
+      container
+      spacing={4}
+      justify="center"
+      style={{ padding:"30px" }}
+      >
+
+        <Grid item xs={12}  md={3} backgroundColor="white"> 
+          <List>
+            <Link to="/Informazioni" style={{ textDecoration: 'none' }}>
+              <ListItemButton>
+                <ListItemIcon>
+                  <ListItemText style={{color: '#484848'}}>Info</ListItemText>
+                </ListItemIcon>
+              </ListItemButton>
+            </Link>
+            <Link to="/IlBeigua" style={{ textDecoration: 'none' }}>
+              <ListItemButton>
+                <ListItemIcon>
+                  <ListItemText style={{color: '#484848'}}>Il Beigua</ListItemText>
+                </ListItemIcon>
+              </ListItemButton>
+            </Link>
+            <Link to="/OraToccaATe" style={{ textDecoration: 'none' }}>
+              <ListItemButton>
+                <ListItemIcon>
+                  <ListItemText style={{color: '#484848'}}>Ora tocca a te</ListItemText>
+                </ListItemIcon>
+              </ListItemButton>
+            </Link>
+            <Link to="/" style={{ textDecoration: 'none' }}>
+              <ListItemButton>
+                <ListItemIcon>
+                  <ListItemText style={{color: '#484848'}}>Documenti</ListItemText>
+                </ListItemIcon>
+              </ListItemButton>
+            </Link>
+        </List>
+        </Grid>
+
+        <Grid item xs={12}  md={9} color="white">
+          <div>
+          <Typography color="common.white">
+        Varazze. E’ prevista per domani, 13 aprile, l’udienza di merito presso il Tar Liguria sulla legittimità del decreto del dirigente regionale alle attività estrattive della Regione Liguria, emesso nel febbraio 2021, relativo al permesso di ricerca mineraria in aree esterne (Monte Antenna) del comprensorio del Parco Beigua, nei comuni di Urbe e Sassello. Lo ricordano le sezioni liguri di Lac, Lipu e Wwf, che da sempre si battono per evitare l’avvio dell’attività di estrazione del minerale.
+        </Typography>
+          </div>
+          <div>
+          <img src="../images/pag2_img1.png" alt="" />
+          </div>
+        </Grid>
+    </Grid>
 
     </>
     );
