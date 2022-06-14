@@ -6,6 +6,7 @@ import {
   ListItemButton,
   ListItemIcon,
   ListItemText,
+  responsiveFontSizes,
   Typography,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -24,36 +25,52 @@ const DrawerComp = () => {
         onClose={() => setOpenDrawer(false)}
       >
         <Box p={4} width='250px' textAlign='left' role='presentation' backgroundColor="#212121">
-          <Typography variant="h4" color="common.white"> 
+          <div className="drawer"> 
             I LIGURI MUOIONO PRIMA
-          </Typography>
+          </div>
         </Box>
         <List>
-            <Link to="/Informazioni" style={{ textDecoration: 'none' }}>
+            <Link to="/Informazioni" style={{textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Info</ListItemText>
+                  <ListItemText>
+                    <div className="list" variant='Poppins'>
+                    INFORMAZIONI
+                    </div>
+                    </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
             <Link to="/IlBeigua" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Il Beigua</ListItemText>
+                  <ListItemText>
+                  <div className="list" variant='Poppins'>
+                    IL BEIGUA
+                    </div>
+                    </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
             <Link to="/OraToccaATe" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Ora tocca a te</ListItemText>
+                  <ListItemText>
+                  <div className="list" variant='Poppins'>
+                    ORA TOCCA A TE
+                    </div>
+                    </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
             <Link to="/" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Documenti</ListItemText>
+                  <ListItemText>
+                  <div className="list" variant='Poppins'>
+                    DOCUMENTI
+                    </div>
+                    </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
