@@ -11,7 +11,9 @@ export default function ButtonAppBar() {
       <AppBar position="static" sx={{ background: "#212121" }}>
         <Toolbar>
         <Typography component="div" sx={{ flexGrow: 1 }}>
-            progetto realizzato per il corso di web design dell'anno accademico 2021/2022
+          <div className='s400'>
+            Progetto realizzato per il corso di web design dell'anno accademico 2021/2022.
+            </div>
         </Typography>
         <img className="photo" src={logo} alt="logo" />
         </Toolbar>
