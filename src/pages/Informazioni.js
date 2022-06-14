@@ -28,7 +28,6 @@ function Informazioni() {
       container
       spacing={4}
       justify="center"
-      style={{ padding:"30px" }}
       >
 
         <Grid item xs={12}  md={3} backgroundColor="white">
