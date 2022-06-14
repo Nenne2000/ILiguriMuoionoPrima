@@ -63,7 +63,7 @@ function Documenti() {
           </div>
         </Grid>
 
-        <Grid item xs={12}  md={9} color="white">
+        <Grid item xs={12}  md={9} color="white" paddingRight={10}>
           <div>
           <Typography color="common.white">
         Varazze. E’ prevista per domani, 13 aprile, l’udienza di merito presso il Tar Liguria sulla legittimità del decreto del dirigente regionale alle attività estrattive della Regione Liguria, emesso nel febbraio 2021, relativo al permesso di ricerca mineraria in aree esterne (Monte Antenna) del comprensorio del Parco Beigua, nei comuni di Urbe e Sassello. Lo ricordano le sezioni liguri di Lac, Lipu e Wwf, che da sempre si battono per evitare l’avvio dell’attività di estrazione del minerale.

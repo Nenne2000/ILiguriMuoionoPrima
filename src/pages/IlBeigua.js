@@ -2,8 +2,10 @@ import React from "react";
 import GlobalStyle from "../components/Globalstyle";
 import background from "../images/immagginebbbrutta.png";
 import img1 from "../images/pag2_img1.png";
+import img2 from "../images/pag2_img2.png";
 import Grid from '@mui/material/Grid';
 import {
+  Button,
     List,
     ListItemButton,
     ListItemIcon,
@@ -11,6 +13,13 @@ import {
     Typography,
   } from "@mui/material";
 import { Link } from 'react-router-dom';
+import { Box } from "@mui/system";
+
+const onMouseOver = event => {
+  const el = event.target;
+  let black = "#212121";
+  el.style.backgroundColor = black;
+};
 
 function IlBeigua() {
 
@@ -62,15 +71,41 @@ function IlBeigua() {
         </List>
         </Grid>
 
-        <Grid item xs={12}  md={9} color="white">
-          <div>
+        <Grid item xs={12}  md={9} color="white" paddingRight={10}>
+        <div className="testoh">
+          <br/><br/>
+          <h1>IL PARCO NATURALE</h1>
           <Typography color="common.white">
-        Varazze. E’ prevista per domani, 13 aprile, l’udienza di merito presso il Tar Liguria sulla legittimità del decreto del dirigente regionale alle attività estrattive della Regione Liguria, emesso nel febbraio 2021, relativo al permesso di ricerca mineraria in aree esterne (Monte Antenna) del comprensorio del Parco Beigua, nei comuni di Urbe e Sassello. Lo ricordano le sezioni liguri di Lac, Lipu e Wwf, che da sempre si battono per evitare l’avvio dell’attività di estrazione del minerale.
-        </Typography>
+          Il comprensorio del Parco Naturale Regionale del Beigua, la più vasta area naturale protetta della Liguria, custodisce gelosamente la storia geologica della nostra regione, raccontata attraverso affioramenti rocciosi, mineralizzazioni, giacimenti fossiliferi e spettacolari forme modellate senza sosta per effetto degli agenti esogeni. Per l'eccezionale patrimonio geologico presente, nel marzo 2005 il comprensorio del Beigua è entrato a far parte delle reti internazionali come Geoparco Europeo e Mondiale.        
+          </Typography>
+          <br/>
           </div>
+
           <div>
           <img src={img1} alt="" width="1077" height="345"/>
           </div>
+
+          <div>
+          <br/>
+          <Typography color="common.white">
+          Il Geoparco comprende l'intera superficie classificata come "Parco Naturale Regionale del Beigua" oltre ad una vasta porzione di territorio funzionalmente connessa al medesimo Parco. Di fatto il Beigua Geopark rappresenta un comprensorio formato da 10 territori comunali che interessano due diverse province (Genova e Savona). Complessivamente il territorio del Beigua Geopark si estende per 39.230 ettari coinvolgendo i comuni di: Arenzano, Campo Ligure, Cogoleto, Genova, Masone, Rossiglione, Sassello, Stella, Tiglieto e Varazze.
+          </Typography>
+          <br/>
+          </div>
+
+          <div>
+          <img src={img2} alt="" width="1077" height="345"/>
+          </div>
+
+          <Box m={1}
+              display="flex"
+              justifyContent="flex-end"
+              alignItems="flex-end">
+          <Button href='http://www.parcobeigua.it/' variant= 'contained' size="small" 
+        onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
+          VAI AL SITO UFFICIALE
+        </Button>
+        </Box>
         </Grid>
     </Grid>
 
