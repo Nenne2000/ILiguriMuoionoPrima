@@ -24,7 +24,7 @@ export default function ActionAreaCard() {
           image={require('../images/Card3.png')}
           alt="stickers"
         />
-        <CardContent>
+        <CardContent sx={{ height : "180px"}}>
           <div className='s700' gutterBottom variant="Poppins" component="div">
             ORA TOCCA A TE
           </div>
