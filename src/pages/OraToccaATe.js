@@ -53,7 +53,7 @@ function IlBeigua() {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/" style={{ textDecoration: 'none' }}>
+            <Link to="/Documenti" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText style={{color: '#484848'}}>Documenti</ListItemText>

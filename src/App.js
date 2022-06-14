@@ -16,6 +16,7 @@ import IlBeigua from './pages/IlBeigua';
 import Informazioni from './pages/Informazioni';
 import { lineHeight } from "@mui/system";
 import OraToccaATe from './pages/OraToccaATe';
+import Documenti from './pages/Documenti';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path='/IlBeigua' element={ <IlBeigua /> } />
           <Route path='/Informazioni' element={ <Informazioni /> } />
           <Route path='/OraToccaATe' element={ <OraToccaATe /> } />
+          <Route path='/Documenti' element= { <Documenti /> } />
         </Routes>
 
         <Footer />
