@@ -34,11 +34,7 @@ export default function ActionAreaCard() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-<<<<<<< HEAD
         <Button href='/Documenti' variant= 'contained' size="small" onMouseEnter={event => onMouseOver(event)} sx={{background: "#212121"}}>
-=======
-        <Button href='/OraToccaATe' variant='contained' size="small" onMouseEnter={event => onMouseOver(event)} sx={{background: "#212121"}}>
->>>>>>> cbb405523ae90fd9e609eb28e4a4d46665687b90
           Scopri di più
         </Button>
       </CardActions>
