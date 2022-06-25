@@ -54,7 +54,7 @@ export default function ButtonAppBar() {
             <ShareIcon />
           </IconButton>
 
-          <Popper id={id} open={open} anchorEl={anchorEl} transition >
+          <Popper placement="left" id={id} open={open} anchorEl={anchorEl} transition >
             {({ TransitionProps }) => (
             <Fade {...TransitionProps} timeout={350}>
               <Box>
