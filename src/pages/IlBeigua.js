@@ -105,7 +105,7 @@ function IlBeigua() {
           </div>
           <br/>
 
-          <div>
+          <div className="centro">
           <img className="foto" src={img1} alt=""/>
           </div>
 
@@ -115,7 +115,7 @@ function IlBeigua() {
           </div>
           <br/>
 
-          <div>
+          <div className="centro">
           <img className="foto" src={img2} alt=""/>
           </div>
           </div>

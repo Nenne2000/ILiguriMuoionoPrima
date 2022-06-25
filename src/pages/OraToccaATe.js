@@ -109,8 +109,8 @@ function IlBeigua() {
           </div>
           <br/>
 
-          <div>
-          <img className="foto" src={img1} alt=""/>
+          <div className="centro">
+          <img className="fotooratoccate" src={img1} alt=""/>
           </div>
 
           <br/>
@@ -123,8 +123,8 @@ function IlBeigua() {
           </div>
           <br/>
 
-          <div>
-          <img className="foto" src={img2} alt=""/>
+          <div className="centro">
+          <img className="fotooratoccate" src={img2} alt=""/>
           </div>
 
           <div className="s400" variant='Poppins'>

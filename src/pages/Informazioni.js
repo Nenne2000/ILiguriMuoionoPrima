@@ -99,7 +99,7 @@ function Informazioni() {
           </div>
           <br/>
 
-          <div>
+          <div className="centro">
             <img className="foto" src={img1}/>
           </div>
 
@@ -109,7 +109,7 @@ function Informazioni() {
           </div>
           <br/>
 
-          <div>
+          <div className="centro">
             <img className="foto" src={img2}/>
           </div>
 

@@ -106,8 +106,8 @@ function Documenti() {
           </div>
           <br/>
 
-          <div>
-          <img className="foto" src={img} alt=""/>
+          <div className="centro">
+          <img className="fotodocumento" src={img} alt=""/>
           </div>
         </div>
         

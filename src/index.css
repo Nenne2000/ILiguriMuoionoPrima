@@ -57,6 +57,21 @@ div.s400{
   height: 350px;
 }
 
+.fotodocumento{
+  width: 500px;
+  height: 700px;
+}
+
+.fotooratoccate{
+  width: 500px;
+}
+
+.centro{
+  display:block;
+  margin:0px 0px;
+  text-align:center;
+}
+
 
 
 testoh{
@@ -83,7 +98,7 @@ testoh{
 
 @media(max-width: 414px) { 
   div.s900 {font-size: 30px;}
-  .foto{width:300px;height: 200px;} 
+  .foto{width:300px;height: 200px;text-align:center;}
   .photo{width: 100px;height: 50px;}
   /*div.s700 {font-size: 15px;} 
   div.s400 {font-size: 10px;}*/
