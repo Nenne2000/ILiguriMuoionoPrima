@@ -28,7 +28,11 @@ function Documenti() {
     <article style={{height:"100%", width:"100%", position:"relative", overflow:"hidden"}}>
         <img src={background} alt="un prato" style={{objectFit:"cover", windth:"100%", height:"100%"}}/>
         <Typography paddingLeft={10} style={{fontSize: "80px", color:"white", textAlign:"left", position:"absolute", 
-                    top:"10", bottom:"0", left:"0", right:"0", height:"fit-content", margin:"auto"}}>DOCUMENTI</Typography>
+                    top:"10", bottom:"0", left:"0", right:"0", height:"fit-content", margin:"auto"}}>
+                      <div className="s900" variant='Poppins'>
+                      DOCUMENTI
+                      </div>
+                      </Typography>
     </article>
 
     <Grid
@@ -43,28 +47,36 @@ function Documenti() {
             <Link to="/Informazioni" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Informazioni</ListItemText>
+                  <ListItemText>
+                    <div className="list" variant='Poppins'>INFORMAZIONI</div>
+                    </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
             <Link to="/IlBeigua" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Il Beigua</ListItemText>
+                  <ListItemText>
+                  <div className="list" variant='Poppins'>IL BEIGUA</div>
+                    </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
             <Link to="/OraToccaATe" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Ora tocca a te</ListItemText>
+                  <ListItemText>
+                  <div className="list" variant='Poppins'>ORA TOCCA A TE</div>
+                  </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
             <Link to="/Documenti" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Documenti</ListItemText>
+                  <ListItemText>
+                  <div className="list" variant='Poppins'>DOCUMENTI</div>
+                  </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
@@ -75,10 +87,12 @@ function Documenti() {
         <Grid item xs={12}  md={9} color="white" paddingRight={10}>
         <div className="testoh">
           <br/><br/>
+          <div className="s700" variant='Poppins'>
           <h1>RASSEGNE STAMPA</h1>
-          <Typography color="common.white">
+          </div>
+          <div className="s400" variant='Poppins'>
           3 Marzo 2021, Richiesta          
-          </Typography>
+          </div>
           <br/>
           </div>
 
@@ -92,7 +106,9 @@ function Documenti() {
               alignItems="flex-end">
           <Button href='' variant= 'contained' size="small" 
         onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
+          <div className="s400" variant='Poppins'>
           VAI AL DOCUMENTO INTEGRALE
+          </div>
         </Button>
         </Box>
         </Grid>

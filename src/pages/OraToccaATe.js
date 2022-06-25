@@ -29,7 +29,11 @@ function IlBeigua() {
     <article style={{height:"100%", width:"100%", position:"relative", overflow:"hidden"}}>
         <img src={background} alt="un prato" style={{objectFit:"cover", windth:"100%", height:"100%"}}/>
         <Typography paddingLeft={10} style={{fontSize: "80px", color:"white", textAlign:"left", position:"absolute", 
-                    top:"10", bottom:"0", left:"0", right:"0", height:"fit-content", margin:"auto"}}>ORA TOCCA A TE</Typography>
+                    top:"10", bottom:"0", left:"0", right:"0", height:"fit-content", margin:"auto"}}>
+                      <div className="s900" variant='Poppins'>
+                      ORA TOCCA A TE
+                      </div>
+                      </Typography>
     </article>
 
     <Grid
@@ -44,28 +48,36 @@ function IlBeigua() {
             <Link to="/Informazioni" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Info</ListItemText>
+                  <ListItemText>
+                  <div className="list" variant='Poppins'>INFORMAZIONI</div>
+                  </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
             <Link to="/IlBeigua" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Il Beigua</ListItemText>
+                  <ListItemText>
+                  <div className="list" variant='Poppins'>IL BEIGUA</div>
+                    </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
             <Link to="/OraToccaATe" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Ora tocca a te</ListItemText>
+                  <ListItemText>
+                  <div className="list" variant='Poppins'>ORA TOCCA A TE</div>
+                  </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
             <Link to="/Documenti" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Documenti</ListItemText>
+                  <ListItemText>
+                  <div className="list" variant='Poppins'>DOCUMENTI</div>
+                  </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
@@ -76,12 +88,14 @@ function IlBeigua() {
         <Grid item xs={12}  md={9} color="white" paddingRight={10}>
         <div className="testoh">
           <br/><br/>
+          <div className="s700" variant='Poppins'>
           <h1>SCARICA.<br/>STAMPA.<br/>DIFFONDI.</h1>
-          <Typography color="common.white">
+          </div>
+          <div className="s400" variant='Poppins'>
           Aiutaci a spargere la voce!<br/>
           Fai sì che altre persone come te possano venire a conoscenza di questa situazione.<br/>
           In quest’area puoi scaricare il kit da stampare per diffondere il messaggio.
-          </Typography>
+          </div>
           <br/>
           </div>
 
@@ -91,13 +105,13 @@ function IlBeigua() {
 
           <div>
           <br/>
-          <Typography color="common.white">
+          <div className="s400" variant='Poppins'>
           Nel kit puoi trovare:<br/>
           volantino nero<br/>
           volantino bianco<br/>
           1 pagina con 8 adesivi neri<br/>
           1 pagina con 8 adesivi bianchi
-          </Typography>
+          </div>
           <br/>
           </div>
 
@@ -105,10 +119,8 @@ function IlBeigua() {
           <img src={img2} alt="" width="650" height="650"/>
           </div>
 
-          <div>
-            <Typography color="common.white">
+          <div className="s400" variant='Poppins'>
             Varazze. E’ prevista per domani, 13 aprile, l’udienza di merito presso il Tar Liguria sulla legittimità del decreto del dirigente regionale alle attività estrattive della Regione Liguria, emesso nel febbraio 2021, relativo al permesso di ricerca mineraria in aree esterne (Monte Antenna) del comprensorio del Parco Beigua, nei comuni di Urbe e Sassello. Lo ricordano le sezioni liguri di Lac, Lipu e Wwf, che da sempre si battono per evitare l’avvio dell’attività di estrazione del minerale.
-            </Typography>
           </div>
 
           <Box m={1}
@@ -118,7 +130,9 @@ function IlBeigua() {
           <Button variant= 'contained' size="small" 
         onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
           <Link to="/logoQR.png" target="_blank" download style={{ textDecoration: 'none', color: 'white'}}>
+          <div className="s400" variant='Poppins'>
           SCARICA IL  PACCHETTO
+          </div>
           </Link>
         </Button>
         </Box>

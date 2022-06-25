@@ -21,7 +21,11 @@ function Informazioni() {
     <article style={{height:"100%", width:"100%", position:"relative", overflow:"hidden"}}>
         <img src={background} alt="un prato" style={{objectFit:"cover", windth:"100%", height:"100%"}}/>
         <Typography paddingLeft={10} style={{fontSize: "80px", color:"white", textAlign:"left", position:"absolute", 
-                    top:"10", bottom:"0", left:"0", right:"0", height:"fit-content", margin:"auto"}}>INFORMAZIONI</Typography>
+                    top:"10", bottom:"0", left:"0", right:"0", height:"fit-content", margin:"auto"}}>
+                      <div className="s900" variant='Poppins'>
+                      INFORMAZIONI
+                      </div>
+                      </Typography>
     </article>
 
     <Grid
@@ -36,28 +40,36 @@ function Informazioni() {
             <Link to="/Informazioni" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Informazioni</ListItemText>
+                  <ListItemText>
+                  <div className="list" variant='Poppins'>INFORMAZIONI</div>
+                  </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
             <Link to="/IlBeigua" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Il Beigua</ListItemText>
+                  <ListItemText>
+                  <div className="list" variant='Poppins'>IL BEIGUA</div>
+                  </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
             <Link to="/OraToccaATe" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Ora tocca a te</ListItemText>
+                  <ListItemText>
+                  <div className="list" variant='Poppins'>ORA TOCCA A TE</div>
+                  </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
             <Link to="/Documenti" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
-                  <ListItemText style={{color: '#484848'}}>Documenti</ListItemText>
+                  <ListItemText>
+                  <div className="list" variant='Poppins'>DOCUMENTI</div>
+                  </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
             </Link>
@@ -68,10 +80,12 @@ function Informazioni() {
         <Grid item xs={12}  md={9} color="white" paddingRight={10}>
           <div className="testoh">
           <br/><br/>
+          <div className="s700" variant='Poppins'>
           <h1>IL GIACIMENTO</h1>
-          <Typography color="common.white">
+          </div>
+          <div className="s400" variant='Poppins'>
             Varazze. E’ prevista per domani, 13 aprile, l’udienza di merito presso il Tar Liguria sulla legittimità del decreto del dirigente regionale alle attività estrattive della Regione Liguria, emesso nel febbraio 2021, relativo al permesso di ricerca mineraria in aree esterne (Monte Antenna) del comprensorio del Parco Beigua, nei comuni di Urbe e Sassello. Lo ricordano le sezioni liguri di Lac, Lipu e Wwf, che da sempre si battono per evitare l’avvio dell’attività di estrazione del minerale.
-          </Typography>
+          </div>
           <br/>
           </div>
 
@@ -81,9 +95,9 @@ function Informazioni() {
 
           <div>
           <br/>
-          <Typography color="common.white">
+          <div className="s400" variant='Poppins'>
             Varazze. E’ prevista per domani, 13 aprile, l’udienza di merito presso il Tar Liguria sulla legittimità del decreto del dirigente regionale alle attività estrattive della Regione Liguria, emesso nel febbraio 2021, relativo al permesso di ricerca mineraria in aree esterne (Monte Antenna) del comprensorio del Parco Beigua, nei comuni di Urbe e Sassello. Lo ricordano le sezioni liguri di Lac, Lipu e Wwf, che da sempre si battono per evitare l’avvio dell’attività di estrazione del minerale.
-          </Typography>
+          </div>
           <br/>
           </div>
 
@@ -93,9 +107,9 @@ function Informazioni() {
 
           <div>
           <br/>
-          <Typography color="common.white">
+          <div className="s400" variant='Poppins'>
             Varazze. E’ prevista per domani, 13 aprile, l’udienza di merito presso il Tar Liguria sulla legittimità del decreto del dirigente regionale alle attività estrattive della Regione Liguria, emesso nel febbraio 2021, relativo al permesso di ricerca mineraria in aree esterne (Monte Antenna) del comprensorio del Parco Beigua, nei comuni di Urbe e Sassello. Lo ricordano le sezioni liguri di Lac, Lipu e Wwf, che da sempre si battono per evitare l’avvio dell’attività di estrazione del minerale.
-          </Typography>
+          </div>
           <br/>
           </div>
 
