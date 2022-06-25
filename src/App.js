@@ -10,11 +10,9 @@ import Card2 from "./components/Card2";
 import Card3 from "./components/Card3";
 import Card4 from "./components/Card4";
 import Timer from './components/Timer';
-import Typography from '@mui/material/Typography';
 
 import IlBeigua from './pages/IlBeigua';
 import Informazioni from './pages/Informazioni';
-import { lineHeight } from "@mui/system";
 import OraToccaATe from './pages/OraToccaATe';
 import Documenti from './pages/Documenti';
 
@@ -81,7 +79,7 @@ const Home = () => {
 
         <Grid item xs={12}  md={6}>
           <div className="s700">
-            Capirai tutto tra:
+            Capirai tutto leggendo in:
           </div>
           <div className="s900" style={{ textAlign: "center"}}>
             <Timer />
