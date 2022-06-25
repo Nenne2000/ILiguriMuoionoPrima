@@ -52,9 +52,39 @@ div.s400{
   margin-bottom: 20px;
 }
 
+.foto{
+  width: 900px; 
+  height: 350px;
+}
+
+
+
+testoh{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 1077px;
+  height: 169px;
+
+
+/* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+
+
 
 @media(max-width: 414px) { 
-  div.s900 {font-size: 30px;} 
+  div.s900 {font-size: 30px;}
+  .foto{width:300px;height: 200px;} 
+  .photo{width: 100px;height: 50px;}
   /*div.s700 {font-size: 15px;} 
   div.s400 {font-size: 10px;}*/
   } 
@@ -62,6 +92,7 @@ div.s400{
   
   @media(max-width: 700px) and (min-width:415px){ 
   div.s900 {font-size:50px;}
+  .foto{width:500px;height: 300px;}
   /*div.s700 {font-size: 25px;} 
   div.s400 {font-size: 20px;}*/
   } 

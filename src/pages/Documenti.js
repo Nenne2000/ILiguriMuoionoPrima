@@ -96,7 +96,7 @@ function Documenti() {
         </Grid>
 
         <Grid item xs={12}  md={9} color="white" paddingRight={10}>
-        <div className="testoh">
+        <div style={{paddingLeft: '10px'}}>
           <br/><br/>
           <div className="s700" variant='Poppins'>
           <h1>RASSEGNE STAMPA</h1>
@@ -105,11 +105,12 @@ function Documenti() {
           3 Marzo 2021, Richiesta          
           </div>
           <br/>
-          </div>
 
           <div>
-          <img src={img} alt="" width="358" height="752"/>
+          <img className="foto" src={img} alt=""/>
           </div>
+        </div>
+        
 
           <Box m={1}
               display="flex"

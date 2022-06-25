@@ -94,8 +94,8 @@ function IlBeigua() {
         </List>
         </Grid>
 
-        <Grid item xs={12}  md={9} color="white" paddingRight={10}>
-        <div className="testoh">
+        <Grid item xs={12}  md={9} color="white">
+        <div style={{paddingLeft: '10px'}}>
           <br/><br/>
           <div className="s700" variant='Poppins'>
           <h1>IL PARCO NATURALE</h1>
@@ -104,22 +104,20 @@ function IlBeigua() {
           Il comprensorio del Parco Naturale Regionale del Beigua, la più vasta area naturale protetta della Liguria, custodisce gelosamente la storia geologica della nostra regione, raccontata attraverso affioramenti rocciosi, mineralizzazioni, giacimenti fossiliferi e spettacolari forme modellate senza sosta per effetto degli agenti esogeni. Per l'eccezionale patrimonio geologico presente, nel marzo 2005 il comprensorio del Beigua è entrato a far parte delle reti internazionali come Geoparco Europeo e Mondiale.        
           </div>
           <br/>
-          </div>
 
           <div>
-          <img src={img1} alt="" width="1077" height="345"/>
+          <img className="foto" src={img1} alt=""/>
           </div>
 
-          <div>
           <br/>
           <div className="s400" variant='Poppins'>
           Il Geoparco comprende l'intera superficie classificata come "Parco Naturale Regionale del Beigua" oltre ad una vasta porzione di territorio funzionalmente connessa al medesimo Parco. Di fatto il Beigua Geopark rappresenta un comprensorio formato da 10 territori comunali che interessano due diverse province (Genova e Savona). Complessivamente il territorio del Beigua Geopark si estende per 39.230 ettari coinvolgendo i comuni di: Arenzano, Campo Ligure, Cogoleto, Genova, Masone, Rossiglione, Sassello, Stella, Tiglieto e Varazze.
           </div>
           <br/>
-          </div>
 
           <div>
-          <img src={img2} alt="" width="1077" height="345"/>
+          <img className="foto" src={img2} alt=""/>
+          </div>
           </div>
 
           <Box m={1}
