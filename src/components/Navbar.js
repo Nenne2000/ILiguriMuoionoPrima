@@ -57,7 +57,7 @@ export default function ButtonAppBar() {
           <Popper id={id} open={open} anchorEl={anchorEl} transition >
             {({ TransitionProps }) => (
             <Fade {...TransitionProps} timeout={350}>
-              <Box sx={{ bgcolor: '#212121' }}>
+              <Box>
                 <FacebookShareButton url="http://localhost:3000/"><FacebookIcon size={32} round={true} /></FacebookShareButton>
                 <TelegramShareButton url="http://localhost:3000/"><TelegramIcon size={32} round={true} /></TelegramShareButton>
                 <TwitterShareButton url="http://localhost:3000/"><TwitterIcon size={32} round={true} /></TwitterShareButton>
