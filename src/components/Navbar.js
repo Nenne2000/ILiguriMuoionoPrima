@@ -58,10 +58,10 @@ export default function ButtonAppBar() {
             {({ TransitionProps }) => (
             <Fade {...TransitionProps} timeout={350}>
               <Box>
-                <FacebookShareButton url="http://localhost:3000/"><FacebookIcon size={32} round={true} /></FacebookShareButton>
-                <TelegramShareButton url="http://localhost:3000/"><TelegramIcon size={32} round={true} /></TelegramShareButton>
-                <TwitterShareButton url="http://localhost:3000/"><TwitterIcon size={32} round={true} /></TwitterShareButton>
-                <WhatsappShareButton url="http://localhost:3000/"><WhatsappIcon size={32} round={true} /></WhatsappShareButton>
+                <FacebookShareButton url="http://localhost:3000/" quote="I LIGURI MUOIONO PRIMA: SCOPRI PERCHÉ" hashtag='#noallaminierasulbeigua'><FacebookIcon size={32} round={true} /></FacebookShareButton>
+                <TelegramShareButton url="http://localhost:3000/" title='I LIGURI MUOIONO PRIMA'><TelegramIcon size={32} round={true} /></TelegramShareButton>
+                <TwitterShareButton url="http://localhost:3000/" title='I LIGURI MUOIONO PRIMA' hashtags={'#noallaminierasulbeigua'}><TwitterIcon size={32} round={true} /></TwitterShareButton>
+                <WhatsappShareButton url="http://localhost:3000/" title='I LIGURI MUOIONO PRIMA'><WhatsappIcon size={32} round={true} /></WhatsappShareButton>
               </Box>
             </Fade>
             )}
