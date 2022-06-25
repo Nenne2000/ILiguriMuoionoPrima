@@ -43,6 +43,7 @@ function IlBeigua() {
       >
 
         <Grid item xs={12}  md={3} backgroundColor="white"> 
+        <div className="drawer"> 
           <List>
           <Link to="/" style={{textDecoration: 'none' }}>
               <ListItemButton>
@@ -92,6 +93,7 @@ function IlBeigua() {
               </ListItemButton>
             </Link>
         </List>
+        </div>
         </Grid>
 
         <Grid item xs={12}  md={9} color="white">

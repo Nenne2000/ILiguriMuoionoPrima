@@ -25,7 +25,7 @@ const DrawerComp = () => {
         onClose={() => setOpenDrawer(false)}
       >
         <Box p={4} width='250px' textAlign='left' role='presentation' backgroundColor="#212121">
-          <div className="drawer"> 
+          <div className="titolodrawer"> 
             I LIGURI MUOIONO PRIMA
           </div>
         </Box>
