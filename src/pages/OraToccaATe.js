@@ -45,6 +45,17 @@ function IlBeigua() {
         <Grid item xs={12}  md={3} backgroundColor="white">
           <div className="App" style={{ backgroundColor: "white" , textAlign:"justify", paddingRight:"20px"}}> 
           <List>
+          <Link to="/" style={{textDecoration: 'none' }}>
+              <ListItemButton>
+                <ListItemIcon>
+                  <ListItemText>
+                    <div className="list" variant='Poppins'>
+                    HOME
+                    </div>
+                    </ListItemText>
+                </ListItemIcon>
+              </ListItemButton>
+            </Link>
             <Link to="/Informazioni" style={{ textDecoration: 'none' }}>
               <ListItemButton>
                 <ListItemIcon>
