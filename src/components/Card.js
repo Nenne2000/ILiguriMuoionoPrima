@@ -29,7 +29,7 @@ export default function ActionAreaCard() {
             INFORMAZIONI
           </div>
           <div className='s400' variant="Poppins" color="white">
-          informazioni veloci riguardanti l’argomento della card in modo da spiegare velocemente di cosa si tratterà
+          Arrivata l'attesa sentenza del TAR della Liguria che ha preso in esame i tre ricorsi presentati per quanto riguarda le ricerche minerarie nella vasta area del Beigua
           </div>
         </CardContent>
       </CardActionArea>
