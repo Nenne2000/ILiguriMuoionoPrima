@@ -138,7 +138,7 @@ function IlBeigua() {
           <Button variant= 'contained' size="small" 
         onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
           <Link to="/logoQR.png" target="_blank" download style={{ textDecoration: 'none', color: 'white'}}>
-          <div className="s400" variant='Poppins'>
+          <div className="button" variant='Poppins'>
           SCARICA IL  PACCHETTO
           </div>
           </Link>
