@@ -44,9 +44,9 @@ function App() {
 const Home = () => {
 
   const MORTE = ["I LIGURI", "MUOIONO", "PRIMA."];
-  const FOCACCIA = ["ADDIO", "FOCACCIA"];
-  const PESTO = ["ADDIO", "PESTO"];
-  const ESTINZIONE = ["LIGURI", "IN VIA DI", "ESTINZIONE"]
+  const FOCACCIA = ["ADDIO", "FOCACCIA."];
+  const PESTO = ["ADDIO", "PESTO."];
+  const ESTINZIONE = ["LIGURI", "IN VIA DI", "ESTINZIONE."]
   const MINACCE = [MORTE, FOCACCIA, PESTO, ESTINZIONE];
   var x = Math.floor(Math.random() * 4);
 
