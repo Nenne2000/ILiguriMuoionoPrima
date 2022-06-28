@@ -92,8 +92,12 @@ function Informazioni() {
 
         <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
 
-        <Grid item xs={12}  md={7} color="white" paddingRight={10}>
-        <div style={{paddingLeft: '20px'}}>
+        <Grid item xs={12}  md={7} color="white">
+        <div style={{paddingLeft: '16px'}}>
+
+        <div className="s700" variant='Poppins'>
+          <h1>IL GIACIMENTO</h1>
+          </div>
           
           <div className="s400" variant='Poppins'>
           Il giacimento di titanio di Piampaludo ricade nei comuni di Urbe e Sassello (SV) e in gran parte nel territorio del Parco Naturale Regionale del Beigua.  Il Parco del Beigua presenta una notevole geodiversità e un variegato patrimonio geologico che comprende, tra l'altro, sequenze di rocce ofiolitiche che per estensione, importanza scientifica e valenza naturalistica ha pochi eguali al mondo. È per questi motivi che dal marzo 2005 il comprensorio del Parco è riconosciuto come Geoparco Internazionale ed è inserito nella Rete Europea dei Geoparchi e nella Rete Globale dei Geoparchi dell’UNESCO.           </div>

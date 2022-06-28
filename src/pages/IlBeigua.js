@@ -27,7 +27,9 @@ function IlBeigua() {
     <>
     <GlobalStyle />
     <article style={{height:"100%", width:"100%", position:"relative", overflow:"hidden"}}>
+        <div className="row">
         <img className="sfondi" src={background} alt="un prato" />
+        </div>
         <Typography paddingLeft={10} style={{fontSize: "80px", color:"white", textAlign:"left", position:"absolute", 
                     top:"10", bottom:"0", left:"0", right:"0", height:"fit-content", margin:"auto"}}>
                       <div className="s900" variant='Poppins'>
@@ -99,7 +101,7 @@ function IlBeigua() {
         <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
 
         <Grid item xs={12}  md={7} color="white">
-        <div style={{paddingLeft: '10px'}}>
+        <div style={{paddingLeft: '16px'}}>
           <br/><br/>
           <div className="s700" variant='Poppins'>
           <h1>IL PARCO NATURALE</h1>
