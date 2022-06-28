@@ -75,13 +75,18 @@ div.button{
   background-size: 'contain';
 }
 
+.beiguapano{
+  width: 800px;
+  height: 400px;
+}
+
 .fotodocumento{
   width: 500px;
   height: 700px;
 }
 
 .cava{
-  width: 975px;
+  width: 700px;
   height: 600px;
 }
 

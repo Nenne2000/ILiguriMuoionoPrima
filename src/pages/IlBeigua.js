@@ -1,7 +1,7 @@
 import React from "react";
 import GlobalStyle from "../components/Globalstyle";
 import background from "../images/immagginebbbrutta.png";
-import img1 from "../images/pag2_img1.png";
+import img1 from "../images/pag2_img1.jpg";
 import img2 from "../images/pag2_img2.png";
 import Grid from '@mui/material/Grid';
 import {
@@ -110,7 +110,7 @@ function IlBeigua() {
           <br/>
 
           <div className="centro">
-          <img className="foto" src={img1} alt=""/>
+          <img className="beiguapano" src={img1} alt=""/>
           </div>
 
           <br/>
