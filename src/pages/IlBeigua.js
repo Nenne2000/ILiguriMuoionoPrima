@@ -96,7 +96,9 @@ function IlBeigua() {
         </div>
         </Grid>
 
-        <Grid item xs={12}  md={9} color="white">
+        <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
+
+        <Grid item xs={12}  md={7} color="white">
         <div style={{paddingLeft: '10px'}}>
           <br/><br/>
           <div className="s700" variant='Poppins'>
@@ -135,6 +137,8 @@ function IlBeigua() {
         </Box>
         </Grid>
     </Grid>
+
+    <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
 
     </>
     );

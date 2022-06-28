@@ -88,7 +88,9 @@ function Informazioni() {
           </div>
         </Grid>
 
-        <Grid item xs={12}  md={9} color="white" paddingRight={10}>
+        <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
+
+        <Grid item xs={12}  md={7} color="white" paddingRight={10}>
         <div style={{paddingLeft: '10px'}}>
           <br/><br/>
           <div className="s700" variant='Poppins'>
@@ -123,6 +125,8 @@ function Informazioni() {
 
         </Grid>
     </Grid>
+
+    <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
  
     </>
     );
