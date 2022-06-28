@@ -30,7 +30,7 @@ function Informazioni() {
 
     <Grid
       container
-      spacing={4}
+      spacing={0}
       justify="center"
       >
 
