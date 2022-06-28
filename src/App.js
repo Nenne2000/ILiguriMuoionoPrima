@@ -68,7 +68,7 @@ const Home = () => {
       >
 
         <Grid item xs={12}  md={6}>
-          <div style={{ backgroundColor: "#484848" , textAlign:"justify", padding:"20px"}}> 
+          <div style={{ backgroundColor: "#484848" , textAlign:"left", padding:"20px"}}> 
               <div className="s700">Perchè?</div>
                 <div className="s400">
                 Il comprensorio del parco del Beigua, la più vasta area naturale protetta della Liguria, è la sede di un vasto giacimento di titanio.<br/>

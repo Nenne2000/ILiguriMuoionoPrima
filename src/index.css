@@ -50,9 +50,18 @@ div.s700{
   color: white;
   font-size: 20px;
   font-weight: 700;
+  padding: 16px;
 }
 
 div.s400{
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin: auto;
+  padding: 16px;
+}
+
+div.button{
   color: white;
   font-size: 16px;
   font-weight: 400;

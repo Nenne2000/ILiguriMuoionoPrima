@@ -130,7 +130,7 @@ function IlBeigua() {
               alignItems="flex-end">
           <Button href='http://www.parcobeigua.it/' variant= 'contained' size="small" 
         onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
-          <div className="s400" variant='Poppins'>
+          <div className="button" variant='Poppins'>
           VAI AL SITO UFFICIALE
           </div>
         </Button>
