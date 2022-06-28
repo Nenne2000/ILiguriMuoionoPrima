@@ -102,7 +102,7 @@ function Informazioni() {
           <br/>
 
           <div className="centro">
-            <img className="foto" src={img1}/>
+            <img className="cava" src={img1}/>
           </div>
 
           <br/>
