@@ -1,7 +1,7 @@
 import React from "react";
 import GlobalStyle from "../components/Globalstyle";
 import background from "../images/pag1_ruspa.png";
-import img1 from "../images/pag1_img1.png";
+import img1 from "../images/pag1_img1.jpg";
 import img2 from "../images/pag1_img2.png";
 import Grid from '@mui/material/Grid';
 import {

@@ -1,6 +1,6 @@
 import React from "react";
 import GlobalStyle from "../components/Globalstyle";
-import img1 from "../images/pag3_img1.png";
+import img1 from "../images/pag3_img1.jpg";
 import img2 from "../images/pag3_img2.png";
 import background from "../images/yourturn.png";
 import Grid from '@mui/material/Grid';
@@ -102,12 +102,12 @@ function IlBeigua() {
         <div style={{paddingLeft: '10px'}}>
           <br/><br/>
           <div className="s700" variant='Poppins'>
-          <h1>SCARICA.<br/>STAMPA.<br/>DIFFONDI.</h1>
+          <h1>SCARICA.<br/>STAMPA.<br/>DIFFONDI.</h1><br/>
           </div>
           <div className="s400" variant='Poppins'>
           Aiutaci a spargere la voce!<br/>
           Fai sì che altre persone come te possano venire a conoscenza di questa situazione.<br/>
-          In quest’area puoi scaricare il kit da stampare per diffondere il messaggio.
+          Scarica e stampa il kit per diffondere il messaggio.
           </div>
           <br/>
 
@@ -116,12 +116,13 @@ function IlBeigua() {
           </div>
 
           <br/>
+          <div className="s700" variant='Poppins'>
+          Nel kit trovi:<br/>
+          </div>
           <div className="s400" variant='Poppins'>
-          Nel kit puoi trovare:<br/>
-          volantino nero<br/>
-          volantino bianco<br/>
-          1 pagina con 8 adesivi neri<br/>
-          1 pagina con 8 adesivi bianchi
+          2 Volantini<br/>
+          8 Adesivi neri<br/>
+          8 Adesivi bianchi
           </div>
           <br/>
 
