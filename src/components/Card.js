@@ -28,7 +28,7 @@ export default function ActionAreaCard() {
           <div gutterBottom className='s700' variant="Poppins" component="div">
             INFORMAZIONI
           </div>
-          <div className='s400' variant="Poppins" color="white">
+          <div className='button' variant="Poppins" color="white">
           informazioni veloci riguardanti l’argomento della card in modo da spiegare velocemente di cosa si tratterà
           </div>
         </CardContent>

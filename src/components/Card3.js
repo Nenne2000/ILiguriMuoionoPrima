@@ -28,7 +28,7 @@ export default function ActionAreaCard() {
           <div className='s700' gutterBottom variant="Poppins" component="div">
             ORA TOCCA A TE
           </div>
-          <div className='s400' variant="Poppins" color="white">
+          <div className='button' variant="Poppins" color="white">
           Aiutaci a spargere la voce!
           Fai sì che altre persone come te possano venire a conoscenza di questa situazione.
           </div>

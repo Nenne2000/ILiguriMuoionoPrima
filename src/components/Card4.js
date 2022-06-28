@@ -28,7 +28,7 @@ export default function ActionAreaCard() {
           <div className='s700' gutterBottom variant="Poppins" component="div">
             DOCUMENTI
           </div>
-          <div className='s400' variant="Poppins" color="white">
+          <div className='button' variant="Poppins" color="white">
           Rassegne stampa e documentazione ufficiale legata ai consensi e alle richieste di analisi dell’area di interesse.
           </div>
         </CardContent>

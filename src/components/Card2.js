@@ -28,7 +28,7 @@ export default function ActionAreaCard() {
           <div className='s700' gutterBottom variant="Poppins" component="div">
             IL BEIGUA
           </div>
-          <div className='s400' variant="Poppins" color="white">
+          <div className='button' variant="Poppins" color="white">
           Il comprensorio del Parco Naturale Regionale del Beigua, la più vasta area naturale protetta della Liguria
           </div>
         </CardContent>
