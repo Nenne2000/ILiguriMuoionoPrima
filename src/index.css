@@ -53,6 +53,12 @@ div.s700{
   padding: 16px;
 }
 
+.titolocard{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 div.s400{
   color: white;
   font-size: 16px;

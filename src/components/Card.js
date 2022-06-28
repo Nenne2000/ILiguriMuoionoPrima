@@ -25,7 +25,7 @@ export default function ActionAreaCard() {
           alt="una ruspa"
         />
         <CardContent sx={{ height : "180px"}}>
-          <div gutterBottom className='s700' variant="Poppins" component="div">
+          <div gutterBottom className='titolocard' variant="Poppins" component="div">
             INFORMAZIONI
           </div>
           <div className='button' variant="Poppins" color="white">
