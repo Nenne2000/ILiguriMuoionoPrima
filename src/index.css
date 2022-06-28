@@ -60,9 +60,10 @@ div.s400{
   margin-bottom: 20px;
 }
 
-.foto{
-  width: 900px; 
+.foto{ 
   height: 350px;
+  background-repeat: 'no-repeat';
+  background-size: 'contain';
 }
 
 .fotodocumento{
