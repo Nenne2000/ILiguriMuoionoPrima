@@ -44,7 +44,7 @@ function Documenti() {
         <Grid item xs={12}  md={3} backgroundColor="white">
           <div className="drawer"> 
           <List>
-          <Link to="/" style={{textDecoration: 'none' }}>
+          <Link to="/" style={{textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -55,7 +55,7 @@ function Documenti() {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/Informazioni" style={{ textDecoration: 'none' }}>
+            <Link to="/Informazioni" style={{ textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -64,7 +64,7 @@ function Documenti() {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/IlBeigua" style={{ textDecoration: 'none' }}>
+            <Link to="/IlBeigua" style={{ textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -73,7 +73,7 @@ function Documenti() {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/OraToccaATe" style={{ textDecoration: 'none' }}>
+            <Link to="/OraToccaATe" style={{ textDecoration: 'none' , color:"#7fb801"}}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -82,7 +82,7 @@ function Documenti() {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/Documenti" style={{ textDecoration: 'none' }}>
+            <Link to="/Documenti" style={{ textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -95,7 +95,9 @@ function Documenti() {
           </div>
         </Grid>
 
-        <Grid item xs={12}  md={9} color="white" paddingRight={10}>
+        <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
+
+        <Grid item xs={12}  md={7} color="white" paddingRight={10}>
         <div style={{paddingLeft: '10px'}}>
           <br/><br/>
           <div className="s700" variant='Poppins'>
@@ -125,6 +127,8 @@ function Documenti() {
         </Box>
         </Grid>
     </Grid>
+
+    <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
  
     </>
     );

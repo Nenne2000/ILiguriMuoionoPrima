@@ -22,6 +22,7 @@ const DrawerComp = () => {
       <Drawer
         anchor="left"
         open={openDrawer}
+        onClick={() => setOpenDrawer(false)}
         onClose={() => setOpenDrawer(false)}
       >
         <Box p={4} width='250px' textAlign='left' role='presentation' backgroundColor="#212121">
@@ -30,7 +31,7 @@ const DrawerComp = () => {
           </div>
         </Box>
         <List>
-        <Link to="/" style={{textDecoration: 'none' }}>
+        <Link to="/" style={{textDecoration: 'none',color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -41,7 +42,7 @@ const DrawerComp = () => {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/Informazioni" style={{textDecoration: 'none' }}>
+            <Link to="/Informazioni" style={{textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -52,7 +53,7 @@ const DrawerComp = () => {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/IlBeigua" style={{ textDecoration: 'none' }}>
+            <Link to="/IlBeigua" style={{ textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -63,7 +64,7 @@ const DrawerComp = () => {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/OraToccaATe" style={{ textDecoration: 'none' }}>
+            <Link to="/OraToccaATe" style={{ textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -74,7 +75,7 @@ const DrawerComp = () => {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/Documenti" style={{ textDecoration: 'none' }}>
+            <Link to="/Documenti" style={{ textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
