@@ -91,7 +91,7 @@ function Informazioni() {
         <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
 
         <Grid item xs={12}  md={7} color="white" paddingRight={10}>
-        <div style={{paddingLeft: '10px'}}>
+        <div style={{paddingLeft: '20px'}}>
           <br/><br/>
           <div className="s700" variant='Poppins'>
           <h1>IL GIACIMENTO</h1>
@@ -124,10 +124,8 @@ function Informazioni() {
 
 
         </Grid>
+      <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
     </Grid>
-
-    <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
- 
     </>
     );
 }
