@@ -18,7 +18,7 @@ export default function ActionAreaCard() {
     <Card sx={{ maxWidth: 345}}>
       <div style={{ color:'white', backgroundColor: "#484848"}}>
       <CardActionArea>
-        <Link to='#/IlBeigua' style={{textDecoration: 'none', color:"#ffffff", fontFamily:"Poppins"}}>
+        <Link to='/IlBeigua' style={{textDecoration: 'none', color:"#ffffff", fontFamily:"Poppins"}}>
           <CardMedia
             component="img"
             height="140"
@@ -37,7 +37,7 @@ export default function ActionAreaCard() {
       </CardActionArea>
       <CardActions>
         <Button variant= 'contained' size="small" onMouseEnter={event => onMouseOver(event)} sx={{background: "#212121"}}>
-          <Link to='#/IlBeigua' style={{textDecoration: 'none', color:"#ffffff", fontFamily:"Poppins"}}>Scopri di più</Link>
+          <Link to='/IlBeigua' style={{textDecoration: 'none', color:"#ffffff", fontFamily:"Poppins"}}>Scopri di più</Link>
         </Button>
       </CardActions>
       </div>

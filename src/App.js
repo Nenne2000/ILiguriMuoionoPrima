@@ -2,7 +2,7 @@ import React from "react";
 import GlobalStyle from "./components/Globalstyle";
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer";
-import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
+import { HashRouter as Router , Routes , Route } from 'react-router-dom';
 
 import Grid from '@mui/material/Grid';
 import Card from "./components/Card";
@@ -25,11 +25,11 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="#/" exact element={ <Home /> } />
-          <Route path='#/IlBeigua' element={ <IlBeigua /> } />
-          <Route path='#/Informazioni' element={ <Informazioni /> } />
-          <Route path='#/OraToccaATe' element={ <OraToccaATe /> } />
-          <Route path='#/Documenti' element= { <Documenti /> } />
+          <Route path="/" exact element={ <Home /> } />
+          <Route path='/IlBeigua' element={ <IlBeigua /> } />
+          <Route path='/Informazioni' element={ <Informazioni /> } />
+          <Route path='/OraToccaATe' element={ <OraToccaATe /> } />
+          <Route path='/Documenti' element= { <Documenti /> } />
         </Routes>
 
         <Footer />

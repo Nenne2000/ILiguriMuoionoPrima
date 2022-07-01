@@ -29,7 +29,7 @@ const DrawerComp = () => {
           </div>
         </Box>
         <List>
-        <Link to="#/" style={{textDecoration: 'none',color:"#7fb801" }}>
+        <Link to="/" style={{textDecoration: 'none',color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -40,7 +40,7 @@ const DrawerComp = () => {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="#/Informazioni" style={{textDecoration: 'none', color:"#7fb801" }}>
+            <Link to="/Informazioni" style={{textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -51,7 +51,7 @@ const DrawerComp = () => {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="#/IlBeigua" style={{ textDecoration: 'none', color:"#7fb801" }}>
+            <Link to="/IlBeigua" style={{ textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -62,7 +62,7 @@ const DrawerComp = () => {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="#/OraToccaATe" style={{ textDecoration: 'none', color:"#7fb801" }}>
+            <Link to="/OraToccaATe" style={{ textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -73,7 +73,7 @@ const DrawerComp = () => {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="#/Documenti" style={{ textDecoration: 'none', color:"#7fb801" }}>
+            <Link to="/Documenti" style={{ textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
