@@ -19,7 +19,7 @@ import Documenti from './pages/Documenti';
 function App() {
   return (
 
-    <Router>
+    <Router basename="/">
       <div>
         <GlobalStyle />
         <Navbar />
