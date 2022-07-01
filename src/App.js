@@ -25,11 +25,11 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="/" exact element={ <Home /> } />
-          <Route path='/IlBeigua' element={ <IlBeigua /> } />
-          <Route path='/Informazioni' element={ <Informazioni /> } />
-          <Route path='/OraToccaATe' element={ <OraToccaATe /> } />
-          <Route path='/Documenti' element= { <Documenti /> } />
+          <Route path="#/" exact element={ <Home /> } />
+          <Route path='#/IlBeigua' element={ <IlBeigua /> } />
+          <Route path='#/Informazioni' element={ <Informazioni /> } />
+          <Route path='#/OraToccaATe' element={ <OraToccaATe /> } />
+          <Route path='#/Documenti' element= { <Documenti /> } />
         </Routes>
 
         <Footer />

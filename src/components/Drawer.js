@@ -5,12 +5,10 @@ import {
   List,
   ListItemButton,
   ListItemIcon,
-  ListItemText,
-  responsiveFontSizes,
-  Typography,
+  ListItemText
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import { Box, textAlign } from "@mui/system";
+import { Box } from "@mui/system";
 import { Link } from 'react-router-dom';
 
 //const pages = ["Info", "Documenti", "Il Beigua", "Ora tocca a te"];
@@ -31,7 +29,7 @@ const DrawerComp = () => {
           </div>
         </Box>
         <List>
-        <Link to="/" style={{textDecoration: 'none',color:"#7fb801" }}>
+        <Link to="#/" style={{textDecoration: 'none',color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -42,7 +40,7 @@ const DrawerComp = () => {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/Informazioni" style={{textDecoration: 'none', color:"#7fb801" }}>
+            <Link to="#/Informazioni" style={{textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -53,7 +51,7 @@ const DrawerComp = () => {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/IlBeigua" style={{ textDecoration: 'none', color:"#7fb801" }}>
+            <Link to="#/IlBeigua" style={{ textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -64,7 +62,7 @@ const DrawerComp = () => {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/OraToccaATe" style={{ textDecoration: 'none', color:"#7fb801" }}>
+            <Link to="#/OraToccaATe" style={{ textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
@@ -75,7 +73,7 @@ const DrawerComp = () => {
                 </ListItemIcon>
               </ListItemButton>
             </Link>
-            <Link to="/Documenti" style={{ textDecoration: 'none', color:"#7fb801" }}>
+            <Link to="#/Documenti" style={{ textDecoration: 'none', color:"#7fb801" }}>
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
