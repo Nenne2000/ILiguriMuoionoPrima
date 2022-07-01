@@ -1,7 +1,7 @@
 import React from "react";
 import GlobalStyle from "../components/Globalstyle";
 import img1 from "../images/pag3_img1.jpg";
-import img2 from "../images/pag3_img2.jpg";
+import img2 from "../images/pag3_img2.png";
 import background from "../images/yourturn.png";
 import Grid from '@mui/material/Grid';
 import {
