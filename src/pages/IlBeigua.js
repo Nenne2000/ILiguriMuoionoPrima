@@ -115,7 +115,7 @@ function IlBeigua() {
           <br/>
           <img className="foto" src={img2} alt=""/>
           </div>
-        </div>
+        
 
           <Box m={1}
               display="flex"
@@ -128,6 +128,7 @@ function IlBeigua() {
           </div>
         </Button>
         </Box>
+        </div>
         </Grid>
         <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
     </Grid>

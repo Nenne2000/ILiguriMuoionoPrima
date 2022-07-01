@@ -109,16 +109,17 @@ function Documenti() {
 
           <img className="fotodocumento" src={img} alt=""/>
           </div>
-        </div>
+          </div>
+        
         
 
           <Box m={1}
               display="flex"
               justifyContent="flex-end"
               alignItems="flex-end">
-          <Button href='' variant= 'contained' size="small" 
+          <Button href='' variant= 'contained' size="small" style={{paddingRight:'5%'}}
         onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
-          <div className="s400" variant='Poppins'>
+          <div className="button" variant='Poppins'>
           VAI AL DOCUMENTO INTEGRALE
           </div>
         </Button>

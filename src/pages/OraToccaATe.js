@@ -100,7 +100,7 @@ function IlBeigua() {
         <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
 
         <Grid item xs={12}  md={7} color="white" paddingRight={10}>
-        <div style={{paddingLeft: '10px',paddingRight:'10%'}}>
+        <div style={{paddingLeft: '10%',paddingRight:'10%'}}>
           <div className="s700" variant='Poppins'>
           <h1>SCARICA.<br/>STAMPA.<br/>DIFFONDI.</h1><br/>
           </div>
@@ -123,21 +123,20 @@ function IlBeigua() {
 
           <img className="fotooratoccate" src={img2} alt=""/>
           </div>
-          </div>
+         
 
           <Box m={1}
               display="flex"
               justifyContent="flex-end"
               alignItems="flex-end">
-          <Button variant= 'contained' size="small" 
+          <Button variant= 'contained' size="small" style={{fontFamily:'Poppins'}}
         onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
           <Link to="/logoQR.png" target="_blank" download style={{ textDecoration: 'none', color: 'white'}}>
-          <div className="button" variant='Poppins'>
           SCARICA IL  PACCHETTO
-          </div>
           </Link>
         </Button>
         </Box>
+        </div>
         </Grid>
         <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
     </Grid>
