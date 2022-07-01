@@ -36,7 +36,7 @@ export default function ActionAreaCard() {
         </Link>
       </CardActionArea>
       <CardActions>
-        <Button href='/Informazioni' variant= 'contained' size="small" 
+        <Button variant= 'contained' size="small" 
         onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
           <Link to='/Informazioni' style={{textDecoration: 'none', color:"#ffffff", fontFamily:"Poppins"}}>Scopri di più</Link>
         </Button>
