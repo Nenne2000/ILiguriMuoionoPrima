@@ -100,8 +100,7 @@ function IlBeigua() {
         <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
 
         <Grid item xs={12}  md={7} color="white" paddingRight={10}>
-        <div style={{paddingLeft:'10%',paddingRight:'10%'}}>
-          <br/><br/>
+        <div style={{paddingLeft: '16px'}}>
           <div className="s700" variant='Poppins'>
           <h1>SCARICA.<br/>STAMPA.<br/>DIFFONDI.</h1><br/>
           </div>
