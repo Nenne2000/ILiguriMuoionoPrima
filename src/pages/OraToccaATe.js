@@ -30,12 +30,11 @@ function IlBeigua() {
         <div className="row">
         <img className="sfondi" src={background} alt="un prato" />
         </div>
-        <Typography paddingLeft={10} style={{fontSize: "80px", color:"white", textAlign:"left", position:"absolute", 
-                    top:"10", bottom:"0", left:"0", right:"0", height:"fit-content", margin:"auto"}}>
+        <div className="titolo">
                       <div className="s900" variant='Poppins'>
-                      ORA TOCCA A TE
+                      TOCCA A TE
                       </div>
-                      </Typography>
+                      </div>
     </article>
 
     <Grid
@@ -80,7 +79,7 @@ function IlBeigua() {
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
-                  <div className="list" variant='Poppins'>ORA TOCCA A TE</div>
+                  <div className="list" variant='Poppins'>TOCCA A TE</div>
                   </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
@@ -101,7 +100,7 @@ function IlBeigua() {
         <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
 
         <Grid item xs={12}  md={7} color="white" paddingRight={10}>
-        <div style={{paddingLeft: '16px'}}>
+        <div style={{paddingLeft: '10%',paddingRight:'10%'}}>
           <div className="s700" variant='Poppins'>
           <h1>SCARICA.<br/>STAMPA.<br/>DIFFONDI.</h1><br/>
           </div>
@@ -109,42 +108,35 @@ function IlBeigua() {
           Aiutaci a spargere la voce!<br/>
           Fai sì che altre persone come te possano venire a conoscenza di questa situazione.<br/>
           Scarica e stampa il kit per diffondere il messaggio.
-          </div>
-          <br/>
+          <br/><br/>
 
-          <div className="centro">
           <img className="fotooratoccate" src={img1} alt=""/>
-          </div>
 
-          <br/>
+          <br/><br/>
           <div className="s700" variant='Poppins'>
           Nel kit trovi:<br/>
           </div>
-          <div className="s400" variant='Poppins'>
           2 Volantini<br/>
           8 Adesivi neri<br/>
           8 Adesivi bianchi
-          </div>
           <br/>
 
-          <div className="centro">
           <img className="fotooratoccate" src={img2} alt=""/>
           </div>
-          </div>
+         
 
           <Box m={1}
               display="flex"
               justifyContent="flex-end"
               alignItems="flex-end">
-          <Button variant= 'contained' size="small" 
+          <Button variant= 'contained' size="small" style={{fontFamily:'Poppins'}}
         onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
           <Link to="/logoQR.png" target="_blank" download style={{ textDecoration: 'none', color: 'white'}}>
-          <div className="button" variant='Poppins'>
           SCARICA IL  PACCHETTO
-          </div>
           </Link>
         </Button>
         </Box>
+        </div>
         </Grid>
         <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
     </Grid>

@@ -67,7 +67,7 @@ const DrawerComp = () => {
                 <ListItemIcon>
                   <ListItemText>
                   <div className="list" variant='Poppins'>
-                    ORA TOCCA A TE
+                    TOCCA A TE
                     </div>
                     </ListItemText>
                 </ListItemIcon>

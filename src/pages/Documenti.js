@@ -29,12 +29,11 @@ function Documenti() {
         <div className="row">
         <img className="sfondi" src={background} alt="un prato" />
         </div>
-        <Typography paddingLeft={10} style={{fontSize: "80px", color:"white", textAlign:"left", position:"absolute", 
-                    top:"10", bottom:"0", left:"0", right:"0", height:"fit-content", margin:"auto"}}>
+        <div className="titolo">
                       <div className="s900" variant='Poppins'>
                       DOCUMENTI
                       </div>
-                      </Typography>
+        </div>
     </article>
 
     <Grid
@@ -79,7 +78,7 @@ function Documenti() {
               <ListItemButton>
                 <ListItemIcon>
                   <ListItemText>
-                  <div className="list" variant='Poppins'>ORA TOCCA A TE</div>
+                  <div className="list" variant='Poppins'>TOCCA A TE</div>
                   </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
@@ -100,28 +99,27 @@ function Documenti() {
         <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
 
         <Grid item xs={12}  md={7} color="white" paddingRight={10}>
-        <div style={{paddingLeft: '16px'}}>
+        <div style={{paddingLeft: '10px',paddingRight:'10%'}}>
           <div className="s700" variant='Poppins'>
           <h1>RASSEGNE STAMPA</h1>
           </div>
           <div className="s400" variant='Poppins'>
           3 Marzo 2021, Richiesta          
-          </div>
-          <br/>
+          <br/><br/>
 
-          <div className="centro">
           <img className="fotodocumento" src={img} alt=""/>
           </div>
-        </div>
+          </div>
+        
         
 
           <Box m={1}
               display="flex"
               justifyContent="flex-end"
               alignItems="flex-end">
-          <Button href='' variant= 'contained' size="small" 
+          <Button href='' variant= 'contained' size="small" style={{paddingRight:'5%'}}
         onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
-          <div className="s400" variant='Poppins'>
+          <div className="button" variant='Poppins'>
           VAI AL DOCUMENTO INTEGRALE
           </div>
         </Button>

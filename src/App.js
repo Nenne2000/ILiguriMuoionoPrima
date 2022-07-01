@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect } from "react";
 import GlobalStyle from "./components/Globalstyle";
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer";
@@ -16,9 +16,19 @@ import Informazioni from './pages/Informazioni';
 import OraToccaATe from './pages/OraToccaATe';
 import Documenti from './pages/Documenti';
 
-import ScrollToTop from './components/ScrollToTop'
+import ScrollToTop from './components/ScrollToTop';
+
+import ReactGA from 'react-ga';
+import ReactDOM from 'react-dom';
+const TRACKING_ID = "G-6S8QD5JS0H";
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
+  
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
 
     <Router basename="/">
