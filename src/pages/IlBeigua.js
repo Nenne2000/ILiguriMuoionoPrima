@@ -102,7 +102,6 @@ function IlBeigua() {
 
         <Grid item xs={12}  md={7} color="white">
         <div style={{paddingLeft: '16px'}}>
-          <br/><br/>
           <div className="s700" variant='Poppins'>
           <h1>IL PARCO NATURALE</h1>
           </div>

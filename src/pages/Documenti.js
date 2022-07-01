@@ -101,7 +101,6 @@ function Documenti() {
 
         <Grid item xs={12}  md={7} color="white" paddingRight={10}>
         <div style={{paddingLeft: '16px'}}>
-          <br/><br/>
           <div className="s700" variant='Poppins'>
           <h1>RASSEGNE STAMPA</h1>
           </div>
