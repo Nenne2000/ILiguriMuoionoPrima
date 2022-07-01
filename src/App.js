@@ -16,10 +16,13 @@ import Informazioni from './pages/Informazioni';
 import OraToccaATe from './pages/OraToccaATe';
 import Documenti from './pages/Documenti';
 
+import ScrollToTop from './components/ScrollToTop'
+
 function App() {
   return (
 
     <Router basename="/">
+      <ScrollToTop/>
       <div>
         <GlobalStyle />
         <Navbar />
