@@ -19,7 +19,7 @@ function Informazioni() {
     <GlobalStyle />
     <article style={{height:"100%", width:"100%", position:"relative", overflow:"hidden"}}>
         <div className="row">
-        <img className="sfondi" src={background} alt="un prato" />
+        <img className="sfondi" src={background} alt="una ruspa in un cantiere" />
         </div>
         <div className="titolo">
                       <div className="s900" variant='Poppins'>
@@ -100,12 +100,12 @@ function Informazioni() {
           Il giacimento di titanio di Piampaludo ricade nei comuni di Urbe e Sassello (SV) e in gran parte nel territorio del Parco Naturale Regionale del Beigua.  Il Parco del Beigua presenta una notevole geodiversità e un variegato patrimonio geologico che comprende, tra l'altro, sequenze di rocce ofiolitiche che per estensione, importanza scientifica e valenza naturalistica ha pochi eguali al mondo. È per questi motivi che dal marzo 2005 il comprensorio del Parco è riconosciuto come Geoparco Internazionale ed è inserito nella Rete Europea dei Geoparchi e nella Rete Globale dei Geoparchi dell’UNESCO.         
           <br/><br/>
 
-            <img className="cava" src={img1}/>
+            <img className="cava" src={img1} alt="vista aerea di una cava"/>
 
           <br/><br/>
           Il giacimento di titanio di Piampaludo è conosciuto e studiato dagli anni '70. Questo prezioso metallo è stato inserito, dalla Comunità Europea, nell'elenco delle materie prime "critiche" e "strategiche", ovvero tra quelle risorse che, oltre al valore economico, presentano elevati rischi di approvvigionamento in quanto l’attività mineraria comporta inevitabilmente la produzione di enormi volumi di materiali sterili derivanti sia dalle operazioni di coltivazione del giacimento sia dalle varie fasi di arricchimento del minerale estratto. Tali materiali sono di norma deposti nell'area mineraria in cumuli a cielo aperto di dimensioni considerevoli o entro bacini naturali e artificiali. Nel caso delle miniere di titanio la concentrazione di TiO2 dei giacimenti attualmente coltivati varia tra il 5 e il 20%, implicando che oltre l'80% del materiale estratto è sterile ed è destinato a discarica.       
           <br/><br/>
-            <img className="mappa" src={img2}/>
+            <img className="mappa" src={img2} alt="mappa dei rilievi del parco"/>
 
           <br/><br/>
           Sebbene il titanio non abbia un impatto significativo per l'ambiente e la salute umana, potrebbero insorgere rischi correlati alla presenza di metalli potenzialmente ecotossici (ad esempio Co, Ni, Cr, V, Zn) e di minerali classificati come amianto. Il rischio amianto è in particolare significativo nei giacimenti associati a rocce ofiolitiche come le eclogiti del giacimento ligure di Piampaludo.  In altre parole dei 458 ettari presi inizialmente in esame, le indagini minerarie potranno concentrarsi solamente nei 183 ettari non compresi da tutele di sorta, vale da dire dai confini del parco e da quelli delle zone speciale di conservazione, vale a dire il 39% di quello richiesto.      
