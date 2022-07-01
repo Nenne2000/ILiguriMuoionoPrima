@@ -5,12 +5,10 @@ import {
   List,
   ListItemButton,
   ListItemIcon,
-  ListItemText,
-  responsiveFontSizes,
-  Typography,
+  ListItemText
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import { Box, textAlign } from "@mui/system";
+import { Box } from "@mui/system";
 import { Link } from 'react-router-dom';
 
 //const pages = ["Info", "Documenti", "Il Beigua", "Ora tocca a te"];

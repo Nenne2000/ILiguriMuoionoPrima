@@ -2,7 +2,7 @@ import React from "react";
 import GlobalStyle from "./components/Globalstyle";
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer";
-import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
+import { HashRouter as Router , Routes , Route } from 'react-router-dom';
 
 import Grid from '@mui/material/Grid';
 import Card from "./components/Card";
@@ -19,7 +19,7 @@ import Documenti from './pages/Documenti';
 function App() {
   return (
 
-    <Router>
+    <Router basename="/">
       <div>
         <GlobalStyle />
         <Navbar />
