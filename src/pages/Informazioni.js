@@ -9,7 +9,6 @@ import {
     ListItemButton,
     ListItemIcon,
     ListItemText,
-    Typography,
   } from "@mui/material";
 import { Link } from 'react-router-dom';
 

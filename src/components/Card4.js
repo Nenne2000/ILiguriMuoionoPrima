@@ -30,7 +30,7 @@ export default function ActionAreaCard() {
               DOCUMENTI
             </div>
             <div className='button'>
-            Rassegne stampa e documentazione ufficiale legata ai consensi e alle richieste di analisi dell’area di interesse.
+            Rassegne stampa e documentazione ufficiale legata ai consensi e alle richieste di analisi dell’area di interesse
             </div>
           </CardContent>
         </Link>

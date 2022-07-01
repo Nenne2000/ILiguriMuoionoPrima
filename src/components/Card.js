@@ -30,7 +30,7 @@ export default function ActionAreaCard() {
             INFORMAZIONI
           </div>
           <div className='button'>
-          Scopri gli ultimi aggiornamenti dal TAR della Liguria sulle ricerche minerarie sul monte Beigua
+          Scopri gli ultimi aggiornamenti dal TAR della Liguria sulle ricerche minerarie nel parco del Beigua
           </div>
         </CardContent>
         </Link>

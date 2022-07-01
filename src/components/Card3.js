@@ -31,7 +31,7 @@ export default function ActionAreaCard() {
             </div>
             <div className='button'>
             Aiutaci a spargere la voce!
-            Fai sì che altre persone come te possano venire a conoscenza di questa situazione.
+            Fai sì che altre persone come te possano venire a conoscenza di questa situazione
             </div>
           </CardContent>
         </Link>
