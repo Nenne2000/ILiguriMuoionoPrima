@@ -92,7 +92,6 @@ function Informazioni() {
 
         <Grid item xs={12}  md={7} color="white">
         <div style={{paddingLeft:'10%',paddingRight:'10%'}}>
-
         <div className="s700" variant='Poppins'>
           <h1>IL GIACIMENTO</h1>
           </div>

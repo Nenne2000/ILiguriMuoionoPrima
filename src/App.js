@@ -92,7 +92,7 @@ const Home = () => {
 
         <Grid item xs={12}  md={6}>
           <div className="s600">
-            Capirai tutto leggendo in:
+            TEMPO DI LETTURA DEL SITO:
           </div>
           <div className="s900" style={{ textAlign: "center"}}>
             <Timer />

@@ -94,6 +94,14 @@ div.button{
   margin-bottom: 20px;
 }
 
+.logounige{
+  height: 50px;
+  width: 120px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .foto{ 
   height: 350px;
   background-repeat: 'no-repeat';
@@ -126,10 +134,15 @@ div.button{
 
 .fotodocumento{
   width: 500px;
-  height: 700px;
+  height: 600px;
 }
 
 .cava{
+  width: 800px;
+  height: 400px;
+}
+
+.panoalbero{
   width: 800px;
   height: 400px;
 }
@@ -195,9 +208,11 @@ testoh{
   div.s700{font-size:13px;}
   .foto{width:300px;height: 200px;text-align:center;}
   .photo{width: 100px;height: 50px;}
+  .logounige{width: 105px;height: 45px;}
   .cava{width: 300px;height: 200px;}
   .beiguapano{width: 300px;height: 200px;}
   .mappa{width: 300px;height: 200px;}
+  .panoalbero{width: 300px; height: 200px;}
   /*div.s700 {font-size: 15px;} 
   div.s400 {font-size: 10px;}*/
   div.drawer{ display: none }

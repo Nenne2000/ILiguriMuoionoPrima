@@ -1,6 +1,6 @@
 import React from "react";
 import GlobalStyle from "../components/Globalstyle";
-import background from "../images/immagginebbbrutta.png";
+import background from "../images/beigua1.png";
 import img1 from "../images/pag2_img1.jpg";
 import img2 from "../images/pag2_img2.png";
 import Grid from '@mui/material/Grid';
@@ -112,7 +112,7 @@ function IlBeigua() {
           Il Geoparco comprende l'intera superficie classificata come "Parco Naturale Regionale del Beigua" oltre ad una vasta porzione di territorio funzionalmente connessa al medesimo Parco. Di fatto il Beigua Geopark rappresenta un comprensorio formato da 10 territori comunali che interessano due diverse province (Genova e Savona). Complessivamente il territorio del Beigua Geopark si estende per 39.230 ettari coinvolgendo i comuni di: Arenzano, Campo Ligure, Cogoleto, Genova, Masone, Rossiglione, Sassello, Stella, Tiglieto e Varazze.
           <br/>
           <br/>
-          <img className="foto" src={img2} alt=""/>
+          <img className="panoalbero" src={img2} alt=""/>
           </div>
         
 

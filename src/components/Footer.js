@@ -12,10 +12,10 @@ export default function ButtonAppBar() {
         <Toolbar>
         <Typography component="div" variant='Poppins' sx={{flexGrow: 1 }}>
           <div className='footer'>
-            Progetto realizzato per il corso di web design dell'anno accademico 2021/2022.
+            Progetto realizzato per <br/>il corso di web design dell'anno accademico 2021/2022.
             </div>
         </Typography>
-        <img className="photo" src={logo} alt="logo" />
+        <img className="logounige" src={logo} alt="logo" />
         </Toolbar>
       </AppBar>
     </Box>
