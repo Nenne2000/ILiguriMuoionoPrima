@@ -130,11 +130,11 @@ function IlBeigua() {
               alignItems="flex-end">
           <Button variant= 'contained' size="small" style={{fontFamily:'Poppins'}}
         onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
-          <Link to="/logoQR.png" target="_blank" download style={{ textDecoration: 'none', color: 'white'}}>
+          <a href="/PacchettoStickers.pdf" download style={{ textDecoration: 'none', color: 'white'}}>
           <div className="button" variant='Poppins'>
           SCARICA IL  PACCHETTO
           </div>
-          </Link>
+          </a>
         </Button>
         </Box>
         </div>
