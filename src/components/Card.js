@@ -30,7 +30,7 @@ export default function ActionAreaCard() {
             INFORMAZIONI
           </div>
           <div className='button'>
-          Scopri gli ultimi aggiornamenti dal TAR della Liguria sulle ricerche minerarie nel parco del Beigua
+          Scopri perché la zona è nell'interesse di alcune compagnie minerarie che vogliono costruirvi una cava nonostante i rischi  
           </div>
         </CardContent>
         </Link>
