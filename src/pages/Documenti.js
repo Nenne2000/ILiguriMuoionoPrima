@@ -116,10 +116,11 @@ function Documenti() {
               display="flex"
               justifyContent="flex-end"
               alignItems="flex-end">
-          <Button href='' variant= 'contained' size="small" style={{paddingRight:'5%'}}
-        onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
+          <Button href='https://www.regione.liguria.it/area-stampa/archivio-comunicati-stampa-della-giunta/item/33524-sentenza-tar-parco-beigua.html'
+            variant= 'contained' size="small"
+            onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
           <div className="button" variant='Poppins'>
-          VAI AL DOCUMENTO INTEGRALE
+          COMUNICATO STAMPA
           </div>
         </Button>
         </Box>
