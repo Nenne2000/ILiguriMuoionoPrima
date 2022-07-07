@@ -99,7 +99,7 @@ function IlBeigua() {
         <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
 
         <Grid item xs={12}  md={7} color="white">
-        <div style={{paddingLeft: '10px',paddingRight:'10%'}}>
+        <div style={{paddingLeft: '10%',paddingRight:'10%'}}>
           <div className="s700" variant='Poppins'>
           <h1>IL PARCO NATURALE</h1>
           </div>

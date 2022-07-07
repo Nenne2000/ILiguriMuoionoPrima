@@ -2,7 +2,6 @@ import React from "react";
 import GlobalStyle from "../components/Globalstyle";
 import background from "../images/documenti.png";
 import Grid from '@mui/material/Grid';
-import img from "../images/pag4.png";
 import {
     Button,
     List,
@@ -97,21 +96,29 @@ function Documenti() {
 
         <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
 
-        <Grid item xs={12}  md={7} color="white" paddingRight={10}>
+        <Grid item xs={12}  md={7} color="white">
         <div style={{paddingLeft: '10%',paddingRight:'10%'}}>
           <div className="s700" variant='Poppins'>
           <h1>RASSEGNE STAMPA</h1>
           </div>
           <div className="s400" variant='Poppins'>
-          3 Marzo 2021, Richiesta          
+           È arrivata l’attesa sentenza del Tar della Liguria che ha preso in esame i tre ricorsi presentati a vario titolo per quanto riguarda le ricerche minerarie nella vasta area del Beigua.
+           <br/><br/>Una sentenza triplice che accoglie il ricorso delle associazioni ambientaliste per la tutela della zona speciale di conservazione, respinge quello presentato dalla Compagnia Europea del Titanio sui limiti imposti e in parte respinge anche il ricorso presentato da comuni e altre associazioni che chiedevano un diniego totale.
           <br/><br/>
-
-          <img className="fotodocumento" src={img} alt=""/>
           </div>
+          <Box m={1}
+              display="flex"
+              justifyContent="flex-end"
+              alignItems="flex-end">
+          <Button href='https://www.ivg.it/2022/05/titanio-sul-beigua-il-tar-respinge-ricorso-di-cet-e-regione-illegittimo-il-permesso-di-ricerca-mineraria/'
+            variant= 'contained' size="small"
+            onMouseEnter={event => onMouseOver(event)}  sx={{background: "#212121"}}>
+          <div className="button" variant='Poppins'>
+            LEGGI L'ARTICOLO DI IVG
+          </div>
+          </Button>
+          </Box>
           
-        
-        
-
           <Box m={1}
               display="flex"
               justifyContent="flex-end"
@@ -122,8 +129,8 @@ function Documenti() {
           <div className="button" variant='Poppins'>
           COMUNICATO STAMPA
           </div>
-        </Button>
-        </Box>
+          </Button>
+          </Box>
         </div>
         </Grid>
         <Grid item xs={12}  md={1} backgroundColor="black"></Grid>
