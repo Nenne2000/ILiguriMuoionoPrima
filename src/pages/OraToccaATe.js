@@ -120,7 +120,7 @@ function IlBeigua() {
           8 Adesivi bianchi
           <br/>
 
-          <img className="fotooratoccate" src={img2} alt=""/>
+          <img className="pag3_img2" src={img2} alt=""/>
           </div>
          
 
